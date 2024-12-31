@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/celestialhub551/celstial-hub/refs/heads/main/README.md"))() -- LIBRARY
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/celestialhub551/celestial-hub/refs/heads/main/configs"))() -- LIBRARY
 
 local Window = Library:CreateWindow('celestial hub') -- CREATE WINDOW
 
