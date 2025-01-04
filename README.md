@@ -3,8 +3,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-	Title = "celtial tis the best",
-	SubTitle = "Private Script",
+	Title = "vitor hub",
+	SubTitle = "fisch | beta",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(550, 350),
 	Acrylic = false, 
@@ -38,7 +38,7 @@ do
 	UserInputService = game:GetService("UserInputService")
 
 
-	-- \\ Celestial Module // --
+	-- \\ vitor Module // --
 	
 	PlayerGui = LocalPlayer.PlayerGui
 	Backpack = LocalPlayer.Backpack
@@ -56,13 +56,13 @@ end
 
 function Notify(Des, Time, title)
 	Fluent:Notify({
-		Title= title or "Celestial Hub Notify",
+		Title= title or "vitor Hub Notify",
 		Content = Des,
 		Duration = Time or 3
 	})
 end
 
-_G['Celestial Hub Table'] = {
+_G['vitor Hub Table'] = {
 	isWindows = UserInputService:GetPlatform() == Enum.Platform.Windows,
 	TypeOs = (table.find({Enum.Platform.Windows}, game:GetService('UserInputService'):GetPlatform()) ~= nil and 'Pc') or 'Mb',
 	SizeUi = (not isWindows and UDim2.fromOffset(600,300)) or UDim2.fromOffset(560,600),
@@ -77,8 +77,8 @@ _G['Celestial Hub Table'] = {
 	AnimationUiToggle = true,
 }
 
-_G['Celestial Hub Table'].SizeUi = (not _G['Celestial Hub Table'].isWindows and UDim2.fromOffset(600,300)) or UDim2.fromOffset(560,600)
-if not _G['Celestial Hub Table'].isWindows then
+_G['vitor Hub Table'].SizeUi = (not _G['vitor Hub Table'].isWindows and UDim2.fromOffset(600,300)) or UDim2.fromOffset(560,600)
+if not _G['vitor Hub Table'].isWindows then
 	if game.CoreGui:FindFirstChild('UIBUTTON') then
 		game.CoreGui:FindFirstChild('UIBUTTON'):Destroy()
 	end
@@ -186,7 +186,7 @@ UICorner.Parent = ImageButton
 end
 
 do -- Settings Initializer
-	local path = "Celestial Hub/fisch"
+	local path = "vitor Hub/fisch"
 	if not isfolder(path) then makefolder(path) end
 	DefaultConfigName = path.."/OriConfibg.json"
 	ConfigName = path.."/"..Client.UserId.."Config.json"
@@ -240,14 +240,14 @@ end
 
 do -- Config Function
 	save = function()
-		if not isfolder('Celestial Hub') then
-			makefolder('Celestial Hub')
+		if not isfolder('vitor Hub') then
+			makefolder('vitor Hub')
 		end
 		writefile(ConfigName,game:GetService("HttpService"):JSONEncode(Config))
 	end
 	setDefaultConfig = function()
-		if not isfolder('Celestial Hub') then
-			makefolder('Celestial Hub')
+		if not isfolder('vitor Hub') then
+			makefolder('vitor Hub')
 		end
 		writefile(DefaultConfigName,game:GetService("HttpService"):JSONEncode(Config))
 	end
@@ -2343,7 +2343,7 @@ do -- INFO FISH
 			Chance = 12;
 			Rarity = "Rare";
 			Resilience = 65;
-			Description = "Pufferfish are clumsy swimmers that can fill their elastic stomachs with huge amounts of water & air to blow themselves up to several times their Celestial size. They do this to evade and scare of predators. On top of their bloating abilities, they also are one of the most poisonous fish in the sea... Also they are the only bony fish which can close their eyes!";
+			Description = "Pufferfish are clumsy swimmers that can fill their elastic stomachs with huge amounts of water & air to blow themselves up to several times their vitor size. They do this to evade and scare of predators. On top of their bloating abilities, they also are one of the most poisonous fish in the sea... Also they are the only bony fish which can close their eyes!";
 			Hint = "Found in reefs and deepwaters.";
 			FavouriteBait = "Seaweed";
 			FavouriteTime = nil;
@@ -3397,7 +3397,7 @@ AllFuncs['Sending Webhook'] = function()
 							["url"]= GetPlayerProfile()
 						},
 						["footer"]= {
-							["text"]  = "Celestial Hub Notify",
+							["text"]  = "vitor Hub Notify",
 							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
 						}
 					}
@@ -3434,7 +3434,7 @@ workspace.active.ChildAdded:Connect(function(child)
 							["url"]= GetPlayerProfile()
 						},
 						["footer"]= {
-							["text"]  = "Celestial Hub Notify",
+							["text"]  = "vitor Hub Notify",
 							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
 						}
 					}
@@ -3581,7 +3581,7 @@ AllFuncs['Auto Find Boat Event'] = function()
 								["url"]= GetPlayerProfile()
 							},
 							["footer"]= {
-								["text"]  = "Celestial Hub Notify",
+								["text"]  = "vitor Hub Notify",
 								["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
 							}
 						}
@@ -3906,7 +3906,7 @@ WebHookConfigs = Tap.Configs:AddSection('WebHook') do
 							["url"]= GetPlayerProfile()
 						},
 						["footer"]= {
-							["text"]  = "Celestial Hub Notify",
+							["text"]  = "vitor Hub Notify",
 							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
 						}
 					}
@@ -4134,7 +4134,7 @@ do
 			writefile(tostring(LocalPlayer.UserId).."ALC.txt", tostring(v))
 		end)
 		Settings_M:AddButton({
-			Title = "Join celestial Hub Discord serve",
+			Title = "Join vitor Hub Discord",
 			Description = "Click to join",
 			Callback = function()
 
@@ -4152,7 +4152,7 @@ do
 
 
 	InterfaceManager:SetLibrary(Fluent)
-	InterfaceManager:SetFolder("Celestial Hub")
+	InterfaceManager:SetFolder("vitor Hub")
 	InterfaceManager:BuildInterfaceSection(Tap.Settings)
 	Window:SelectTab(1)
 	SaveManager:LoadAutoloadConfig()
